@@ -1,0 +1,7 @@
+main:
+  - title: "소개"
+    url: /about/
+  - title: "회원"
+    url: /members/
+  - title: "기록"
+    url: /year-archive/

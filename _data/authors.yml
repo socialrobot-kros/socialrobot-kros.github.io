@@ -1,0 +1,8 @@
+Minsu Jang:
+  name        : "Minsu Jang"
+  bio         : "Machine Knows!"
+  avatar      : "/assets/images/minsujang.jpg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:minsu@etri.re.kr"

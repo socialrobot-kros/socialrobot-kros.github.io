@@ -17,8 +17,8 @@ title: 소셜로봇연구회 Social Robot SIG
 email: minsu@etri.re.kr
 description: >- # this means to ignore newlines until "baseurl:"
   한국로봇학회 소셜로봇연구회 홈페이지입니다. The hompage for Social Robot SIG of Korea Robotics Society.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: # the subpath of your site, e.g. /blog
+url: # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 #github_username:  jekyll
 

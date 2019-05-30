@@ -1,6 +1,6 @@
 main:
   - title: "소개"
-    url: /about/
+    url: /intro/
   - title: "회원"
     url: /members/
   - title: "기록"

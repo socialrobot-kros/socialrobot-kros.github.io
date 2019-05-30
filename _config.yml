@@ -22,6 +22,10 @@ url: 'https://socialrobot-kros.github.io' # the base hostname & protocol for you
 #twitter_username: jekyllrb
 #github_username:  jekyll
 
+sass:
+  sass_dir: _sass
+  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+
 # Build settings
 markdown: kramdown
 theme: minimal-mistakes-jekyll

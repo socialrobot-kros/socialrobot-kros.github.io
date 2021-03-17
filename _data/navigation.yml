@@ -5,3 +5,5 @@ main:
     url: /members/
   - title: "기록"
     url: /year-archive/
+  - title: "Workshop@IROS2021"
+    url: /workshop_socialai_iros2021/

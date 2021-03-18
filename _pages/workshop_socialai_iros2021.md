@@ -50,9 +50,9 @@ To be announced
 
 ## Organizers (Not Yet Completed)
 
-- Minsu Jang, ETRI, South Korea
+- Minsu Jang, Electronics and Telecommunications Research Institute (ETRI), South Korea
 - Hyungpil Moon, SungKyunKwan University, South Korea
 - Ho Seok Ahn, The University of Auckland, New Zealand
-- JongSuk Choi, Korea Institute of Science and Technology, South Korea
-- Jaehong Kim, Electronics and Telecommunications Research Institute, South Korea
+- JongSuk Choi, Korea Institute of Science and Technology (KIST), South Korea
+- Jaehong Kim, Electronics and Telecommunications Research Institute (ETRI), South Korea
 - **more organizers to be announced**

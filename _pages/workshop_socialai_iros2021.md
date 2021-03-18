@@ -48,7 +48,7 @@ To be announced
 
 To be announced
 
-## Organizers (Not Yet Completed)
+## Organizers
 
 - Minsu Jang, ETRI (Electronics and Telecommunications Research Institute), South Korea
 - Hyungpil Moon, SungKyunKwan University, South Korea

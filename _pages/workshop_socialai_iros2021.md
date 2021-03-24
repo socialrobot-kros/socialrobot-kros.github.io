@@ -34,9 +34,13 @@ This workshop will focus on the current advances in the area of social human-rob
 - User evaluation
 - Applications such as healthcare, receptionist, education
 
-## Invited Speakers
+## Invited Speakers (Tentative)
 
-To be announced
+- Matteo Bianchi (Research Center “E.Piaggio”, University of Pisa) *confirmed*
+- Gustav Eje Henter (KTH Royal Institute of Technology) *confirmed*
+- Hae Won Park (Personal Robots Group, Massachusetts Institute of Technology) *confirmed*
+- Franziska Kirstein (Blue Ocean Robotics, Denmark)
+- John Ha (Bear Robotics, USA)
 
 ## Sponsors (Tentative)
 

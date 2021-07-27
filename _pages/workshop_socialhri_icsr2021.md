@@ -1,7 +1,7 @@
 ---
 permalink: /workshop_socialhri_icsr2021/
 layout: splash
-title: 2nd Workshop on Social AI for Human-Robot Interaction of Human-Care Robots
+title: Workshop on Social AI for Human-Robot Interaction of Human-Care Robots
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"

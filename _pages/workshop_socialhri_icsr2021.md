@@ -3,7 +3,7 @@ permalink: /workshop_socialhri_icsr2021/
 layout: splash
 title: Workshop on Social AI for Human-Robot Interaction of Human-Care Robots
 header:
-  overlay_color: "#000"
+  overlay_color: "#5499C7"
   overlay_filter: "0.5"
 author_profile: false
 last_modified_at: 2021-03-17T20:23:03-05:00
@@ -46,7 +46,8 @@ We welcome submissions of previously published works related to the topics of in
 
 ## Invited Speakers
 
-To be announced
+- Dr. Dohyung Kim [[google scholar](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Dohyung+Kim+etri&btnG=)] (ETRI)
+- *more speakers to be announced*
 
 ## Program (*tentative, official date-time for our workshop has not been fixed yet*)
 
@@ -56,6 +57,7 @@ To be announced
 - 10:35 - 11:00 - Invited Talk #3 / *recruiting*
 - 11:00 - 11:25 - Invited Talk #4 / *recruiting*
 - 11:25 - 12:30 - Teaser Session and Panel Discussion *details to be announced*
+- 12:30 - 12:40 - Closing Remarks / Ho Seok Ahn (University of Auckland)
 
 ## Organizers
 

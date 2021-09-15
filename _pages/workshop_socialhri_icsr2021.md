@@ -34,23 +34,28 @@ This workshop will focus on the current advances in the area of social human-rob
 
 ## Submission Guidelines
 
-We invite submission of a 2-page extended abstract in the double-column IEEE Tran format ([template@overleaf](https://www.overleaf.com/latex/templates/ieee-conference-template-example/nsncsyjfmpxy)). All submissions must be original and not previously or simultaneously submitted to another event. Submissions will be judged on novelty, scientific contribution, clarity, and relevance.
+We invite submission of a 2-page extended abstract in the double-column IEEE Tran format ([template@overleaf](https://www.overleaf.com/latex/templates/ieee-conference-template-example/nsncsyjfmpxy)).
 
-*Detailed submission instructions to be posted.*
+We welcome submissions of previously published works related to the topics of interest of this workshop. We do not officially publish a proceedings, so you can submit and publish your work in other conferences or journals.
 
-## Important Dates (*still tentative*)
+## Important Dates
 
-- Paper submission: September 30, 2021
+- Paper submission: October 15, 2021 [extended]
 - Notification of acceptance: October 30, 2021
-- Workshop: November 10, 2021
+- Workshop: November 10, 2021 (*not fixed yet*)
 
 ## Invited Speakers
 
 To be announced
 
-## Program
+## Program (*tentative, official date-time for our workshop has not been fixed yet*)
 
-To be announced
+- 09:30 - 09:45 - Opening Remarks / Minsu Jang (ETRI)
+- 09:45 - 10:10 - Invited Talk #1 / *recruiting*
+- 10:10 - 10:35 - Invited Talk #2 / Dohyung Kim (ETRI)
+- 10:35 - 11:00 - Invited Talk #3 / *recruiting*
+- 11:00 - 11:25 - Invited Talk #4 / *recruiting*
+- 11:25 - 12:30 - Teaser Session and Panel Discussion *details to be announced*
 
 ## Organizers
 

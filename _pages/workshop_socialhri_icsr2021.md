@@ -34,7 +34,9 @@ This workshop will focus on the current advances in the area of social human-rob
 
 ## Submission Guidelines
 
-We invite submission of a 2-page extended abstract in the double-column IEEE Tran format ([template@overleaf](https://www.overleaf.com/latex/templates/ieee-conference-template-example/nsncsyjfmpxy)).
+We invite submission of a 2-page extended abstract in the double-column IEEE Tran format ([template@overleaf](https://www.overleaf.com/latex/templates/ieee-conference-template-example/nsncsyjfmpxy)). 
+
+Please submit your manuscript by email to minsu(at)etri.re.kr hs.ahn(at)auckland.ac.nz.
 
 We welcome submissions of previously published works related to the topics of interest of this workshop. We do not officially publish a proceedings, so you can submit and publish your work in other conferences or journals.
 

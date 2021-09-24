@@ -44,22 +44,23 @@ We welcome submissions of previously published works related to the topics of in
 
 - Paper submission: October 15, 2021 [extended]
 - Notification of acceptance: October 30, 2021
-- Workshop: November 10, 2021 (*not fixed yet*)
+- Workshop: November 12, 2021
 
 ## Invited Speakers
 
+- Prof. Goldie Nejat [[homepage](https://www.mie.utoronto.ca/faculty_staff/nejat/)] (University of Toronto, Canada)
 - Dr. Dohyung Kim [[google scholar](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Dohyung+Kim+etri&btnG=)] (ETRI)
-- *more speakers to be announced*
+- *more to be invited*
 
-## Program (*tentative, official date-time for our workshop has not been fixed yet*)
+## Program
 
-- 09:30 - 09:45 - Opening Remarks / Minsu Jang (ETRI)
-- 09:45 - 10:10 - Invited Talk #1 / *recruiting*
-- 10:10 - 10:35 - Invited Talk #2 / Dohyung Kim (ETRI)
-- 10:35 - 11:00 - Invited Talk #3 / *recruiting*
-- 11:00 - 11:25 - Invited Talk #4 / *recruiting*
-- 11:25 - 12:30 - Teaser Session and Panel Discussion *details to be announced*
-- 12:30 - 12:40 - Closing Remarks / Ho Seok Ahn (University of Auckland)
+- 08:00 - 08:15, SGT(GMT+8) - Opening Remarks / Minsu Jang (ETRI)
+- 08:15 - 08:50, SGT(GMT+8) - Invited Talk #1 / Goldie Nejat (University of Toronto, Canada)
+- 08:50 - 09:15, SGT(GMT+8) - Invited Talk #2 / Dohyung Kim (ETRI)
+- 09:15 - 09:40, SGT(GMT+8) - Invited Talk #3 / *recruiting*
+- 09:40 - 10:05, SGT(GMT+8) - Invited Talk #4 / *recruiting*
+- 10:05 - 10:50, SGT(GMT+8) - Teaser Session and Panel Discussion *details to be announced*
+- 10:50 - 11:00, SGT(GMT+8) - Closing Remarks / Ho Seok Ahn (University of Auckland)
 
 ## Organizers
 

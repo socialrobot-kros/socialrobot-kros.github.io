@@ -1,0 +1,10 @@
+ main:
+  - department: "Electronics and Telecommunications Research Institute, South Korea"
+    child: 
+      - name: "Minsu Jang"
+        position: "Project Coordinator" 
+        research: "Social Human-Robot Interaction Framework"
+        image : "/assets/minsujang_square.png"
+        link:
+          - name: "google scholar"
+            url: "https://scholar.google.com/citations?hl=en&user=ggkuHCcAAAAJ"

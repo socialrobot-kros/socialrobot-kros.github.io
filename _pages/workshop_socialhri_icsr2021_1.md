@@ -12,6 +12,15 @@ toc: true
 
 in association with [ICSR 2021 Conference](http://www.colips.org/conferences/icsr2021/wp/)
 
+## Workshop Date
+
+08:00AM ~ 11:00AM SGT(Singapore Time) on Nov. 12th, 2021
+## Invited Speakers
+
+- Prof. Goldie Nejat [[homepage](https://www.mie.utoronto.ca/faculty_staff/nejat/)] (University of Toronto, Canada)
+- Dr. Dohyung Kim [[google scholar](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Dohyung+Kim+etri&btnG=)] (ETRI)
+- Prof. Chien-Ming Huang [[homepage](https://www.cs.jhu.edu/~cmhuang/)] (Johns Hopkins University, USA)
+
 ## Objectives
 
 Service robots need to be devised with social intelligence to be effortlessly integrated into our everyday lives. Service robots are intended to improve the quality of life as well as efficiency in human-robot interactive applications. Especially, human-care service robots are desired to be capable of robust and stable interaction with human users.
@@ -46,20 +55,14 @@ We welcome submissions of previously published works related to the topics of in
 - Notification of acceptance: October 30, 2021
 - Workshop: November 12, 2021
 
-## Invited Speakers
-
-- Prof. Goldie Nejat [[homepage](https://www.mie.utoronto.ca/faculty_staff/nejat/)] (University of Toronto, Canada)
-- Dr. Dohyung Kim [[google scholar](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Dohyung+Kim+etri&btnG=)] (ETRI)
-- *more to be invited*
-
-## Program
+## Program (*tentative*)
 
 - 08:00 - 08:15, SGT(GMT+8) - Opening Remarks / Minsu Jang (ETRI)
 - 08:15 - 08:50, SGT(GMT+8) - Invited Talk #1 / Goldie Nejat (University of Toronto, Canada)
-- 08:50 - 09:15, SGT(GMT+8) - Invited Talk #2 / Dohyung Kim (ETRI)
-- 09:15 - 09:40, SGT(GMT+8) - Invited Talk #3 / *recruiting*
-- 09:40 - 10:05, SGT(GMT+8) - Invited Talk #4 / *recruiting*
-- 10:05 - 10:50, SGT(GMT+8) - Teaser Session and Panel Discussion *details to be announced*
+- 08:50 - 09:25, SGT(GMT+8) - Invited Talk #2 / Chien-Ming Huang (Johns Hopkins University, USA)
+- 09:25 - 09:50, SGT(GMT+8) - Invited Talk #3 / Dohyung Kim (ETRI)
+- 09:50 - 10:15, SGT(GMT+8) - Invited Talk #4 / *recruiting*
+- 10:15 - 10:50, SGT(GMT+8) - Teaser Session and Panel Discussion *details to be announced*
 - 10:50 - 11:00, SGT(GMT+8) - Closing Remarks / Ho Seok Ahn (University of Auckland)
 
 ## Organizers

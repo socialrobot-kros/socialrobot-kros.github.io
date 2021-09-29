@@ -1,5 +1,5 @@
 ---
-permalink: /workshop_socialhri_icsr2021_1/
+permalink: /workshop_socialhri_icsr2021/
 layout: event
 title: Workshop on Social AI for Human-Robot Interaction of Human-Care Robots
 header:

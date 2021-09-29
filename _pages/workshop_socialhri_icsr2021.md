@@ -62,8 +62,8 @@ We welcome submissions of previously published works related to the topics of in
 - 08:00 - 08:15, SGT(GMT+8) - Opening Remarks / Minsu Jang (ETRI)
 - 08:15 - 08:50, SGT(GMT+8) - Invited Talk #1 / Goldie Nejat (University of Toronto, Canada)
 - 08:50 - 09:25, SGT(GMT+8) - Invited Talk #2 / Chien-Ming Huang (Johns Hopkins University, USA)
-- 09:25 - 09:50, SGT(GMT+8) - Invited Talk #3 / Dohyung Kim (ETRI)
-- 09:50 - 10:15, SGT(GMT+8) - Invited Talk #4 / *recruiting*
+- 09:25 - 09:50, SGT(GMT+8) - Invited Talk #3 / Dohyung Kim (Electronics and Telecommunications Research Institute, South Korea)
+- 09:50 - 10:15, SGT(GMT+8) - Invited Talk #4 / Guy Hoffman (Cornell University, USA)
 - 10:15 - 10:50, SGT(GMT+8) - Teaser Session and Panel Discussion *details to be announced*
 - 10:50 - 11:00, SGT(GMT+8) - Closing Remarks / Ho Seok Ahn (University of Auckland)
 

@@ -1,20 +1,22 @@
-in association with [ICSR 2021 Conference](http://www.colips.org/conferences/icsr2021/wp/)
+---
+permalink: /workshop_socialai_iros2021/
+layout: splash
+title: 2nd Workshop on Social AI for Human-Robot Interaction of Human-Care Service Robots
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+author_profile: false
+last_modified_at: 2021-03-17T20:23:03-05:00
+toc: true
+---
 
-## Workshop Date
-
-08:00AM ~ 11:00AM SGT(Singapore Time) on Nov. 12th, 2021
-## Invited Speakers
-
-- Prof. Guy Hoffman [[homepage](https://hrc2.io/people/guy-hoffman)] (Cornell University, USA)
-- Prof. Goldie Nejat [[homepage](https://www.mie.utoronto.ca/faculty_staff/nejat/)] (University of Toronto, Canada)
-- Dr. Dohyung Kim [[google scholar](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Dohyung+Kim+etri&btnG=)] (ETRI)
-- Prof. Chien-Ming Huang [[homepage](https://www.cs.jhu.edu/~cmhuang/)] (Johns Hopkins University, USA)
+in association with [IROS2021 Conference](https://www.iros2021.org)
 
 ## Objectives
 
-Service robots need to be devised with social intelligence to be effortlessly integrated into our everyday lives. Service robots are intended to improve the quality of life as well as efficiency in human-robot interactive applications. Especially, human-care service robots are desired to be capable of robust and stable interaction with human users.
+Service robots with social intelligence are desired to be integrated into our everyday lives. Service robots are intended to improve aspects of quality of life as well as efficiency in human-robot interactive applications. Especially, human-care service robots are desired to have more robust and stable interaction capability not only with human but also with daily objects. The interaction with human is more toward the traditional human-robot interaction and the interaction with daily objects is toward the robotic manipulation in human-care settings. We are organizing an exciting workshop at IROS 2020 that is oriented towards sharing the ideas and experiences amongst participants with diverse backgrounds ranging from Human-Robot Interaction design, social intelligence, decision making, task-motion planning, social psychology and aspects, robotics manipulation and social skills. The purpose of this workshop is to explore how social AI for Human-Robot Interaction can be applied to service robots into our daily lives. This workshop focuses on three social aspects of human-robot interaction of human-care service robots: (1) technical implementation of social AI, (2) form, function and behavior of human-care service robots and (3) human behavior and expectations as a means to understand the social aspects of interacting with these robots and products.
 
-Our mission with this workshop is to share the ideas and experiences amongst participants with diverse backgrounds ranging from interaction design, social intelligence, decision making, task planning, and social psychology, and to encourage exploring how social AI for human-robot interaction can be applied to service robots for human-care in our daily lives. This workshop focuses on three social aspects of human-robot interaction of human-care service robots: (1) technical implementation of social AI, (2) form, function and behavior of human-care service robots and (3) human behavior and expectations as a means to understand the social aspects of interacting with these robots and products.
+The workshop is a single-track, half-day meeting that includes the topics of artificial social intelligence for cognitive and physical interaction of human-care robots. We invite world-recognized speakers to present their work and participate in panel discussions that will present good opportunities for the workshop participants, including students. We will also have a technical session and give opportunities to the workshop participants to share and discuss their work. After the workshop, all the presentations and papers will be available on the workshop webpage.
 
 ## Topics of Interest
 
@@ -23,40 +25,38 @@ This workshop will focus on the current advances in the area of social human-rob
 - Social perception and context awareness
 - Social expression and interactive behavior
 - Social task modelling and management
+- Social navigation skills
+- Robotic grasping and manipulation skills for human-care services
 - Social humanoid robot design
 - Human-robot interaction design
 - Emotion recognition and model design
 - Dialogue based interaction
 - User evaluation
-- Applications for healthcare, receptionist, education
+- Applications such as healthcare, receptionist, education
 
-## Submission Guidelines
+## Invited Speakers (Tentative)
 
-We invite submission of a 2-page extended abstract in the double-column IEEE Tran format ([template@overleaf](https://www.overleaf.com/latex/templates/ieee-conference-template-example/nsncsyjfmpxy)). 
+- Matteo Bianchi (Research Center “E.Piaggio”, University of Pisa) *confirmed*
+- Gustav Eje Henter (KTH Royal Institute of Technology) *confirmed*
+- Hae Won Park (Personal Robots Group, Massachusetts Institute of Technology) *confirmed*
+- Franziska Kirstein (Blue Ocean Robotics, Denmark)
+- John Ha (Bear Robotics, USA)
 
-Please submit your manuscript by email to minsu(at)etri.re.kr and hs.ahn(at)auckland.ac.nz.
+## Sponsors (Tentative)
 
-We welcome submissions of previously published works related to the topics of interest of this workshop. We do not officially publish a proceedings, so you can submit and publish your work in other conferences or journals.
+- IEEE-RAS Technical Committee on Human-Robot Interaction and Coordination
+- IEEE-RAS Technical Committee on Robotic Hand, Grasping and Manipulation
+- Korea Robotics Society
 
-## Important Dates
+## Program
 
-- Paper submission: October 15, 2021 [extended]
-- Notification of acceptance: October 30, 2021
-- Workshop: November 12, 2021
-
-## Program (*tentative*)
-
-- 08:00 - 08:15, SGT(GMT+8) - Opening Remarks / Minsu Jang (ETRI)
-- 08:15 - 08:50, SGT(GMT+8) - Invited Talk #1 / Goldie Nejat (University of Toronto, Canada)
-- 08:50 - 09:25, SGT(GMT+8) - Invited Talk #2 / Chien-Ming Huang (Johns Hopkins University, USA)
-- 09:25 - 09:50, SGT(GMT+8) - Invited Talk #3 / Dohyung Kim (ETRI)
-- 09:50 - 10:15, SGT(GMT+8) - Invited Talk #4 / *recruiting*
-- 10:15 - 10:50, SGT(GMT+8) - Teaser Session and Panel Discussion *details to be announced*
-- 10:50 - 11:00, SGT(GMT+8) - Closing Remarks / Ho Seok Ahn (University of Auckland)
+To be announced
 
 ## Organizers
 
 - Minsu Jang, ETRI (Electronics and Telecommunications Research Institute), South Korea
+- Hyungpil Moon, SungKyunKwan University, South Korea
 - Ho Seok Ahn, The University of Auckland, New Zealand
-- Jaehong Kim, ETRI (Electronics and Telecommunications Research Institute), South Korea
 - JongSuk Choi, KIST (Korea Institute of Science and Technology), South Korea
+- Jaehong Kim, ETRI (Electronics and Telecommunications Research Institute), South Korea
+- **more organizers to be announced**

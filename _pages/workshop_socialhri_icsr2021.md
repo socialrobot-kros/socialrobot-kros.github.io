@@ -1,16 +1,26 @@
 ---
-permalink: /workshop_socialhri_icsr2021/
-layout: splash
+permalink: /workshop_socialhri_icsr2021_1/
+layout: event
 title: Workshop on Social AI for Human-Robot Interaction of Human-Care Robots
 header:
   overlay_color: "#5499C7"
   overlay_filter: "0.5"
 author_profile: false
-last_modified_at: 2021-03-17T20:23:03-05:00
+last_modified_at: 2021-09-29T20:23:03-05:00
 toc: true
 ---
 
 in association with [ICSR 2021 Conference](http://www.colips.org/conferences/icsr2021/wp/)
+
+## Workshop Date
+
+08:00AM ~ 11:00AM SGT(Singapore Time) on Nov. 12th, 2021
+## Invited Speakers
+
+- Prof. Guy Hoffman [[homepage](https://hrc2.io/people/guy-hoffman)] (Cornell University, USA)
+- Prof. Goldie Nejat [[homepage](https://www.mie.utoronto.ca/faculty_staff/nejat/)] (University of Toronto, Canada)
+- Dr. Dohyung Kim [[google scholar](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Dohyung+Kim+etri&btnG=)] (ETRI)
+- Prof. Chien-Ming Huang [[homepage](https://www.cs.jhu.edu/~cmhuang/)] (Johns Hopkins University, USA)
 
 ## Objectives
 
@@ -46,20 +56,14 @@ We welcome submissions of previously published works related to the topics of in
 - Notification of acceptance: October 30, 2021
 - Workshop: November 12, 2021
 
-## Invited Speakers
-
-- Prof. Goldie Nejat [[homepage](https://www.mie.utoronto.ca/faculty_staff/nejat/)] (University of Toronto, Canada)
-- Dr. Dohyung Kim [[google scholar](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Dohyung+Kim+etri&btnG=)] (ETRI)
-- *more to be invited*
-
-## Program
+## Program (*tentative*)
 
 - 08:00 - 08:15, SGT(GMT+8) - Opening Remarks / Minsu Jang (ETRI)
 - 08:15 - 08:50, SGT(GMT+8) - Invited Talk #1 / Goldie Nejat (University of Toronto, Canada)
-- 08:50 - 09:15, SGT(GMT+8) - Invited Talk #2 / Dohyung Kim (ETRI)
-- 09:15 - 09:40, SGT(GMT+8) - Invited Talk #3 / *recruiting*
-- 09:40 - 10:05, SGT(GMT+8) - Invited Talk #4 / *recruiting*
-- 10:05 - 10:50, SGT(GMT+8) - Teaser Session and Panel Discussion *details to be announced*
+- 08:50 - 09:25, SGT(GMT+8) - Invited Talk #2 / Chien-Ming Huang (Johns Hopkins University, USA)
+- 09:25 - 09:50, SGT(GMT+8) - Invited Talk #3 / Dohyung Kim (ETRI)
+- 09:50 - 10:15, SGT(GMT+8) - Invited Talk #4 / *recruiting*
+- 10:15 - 10:50, SGT(GMT+8) - Teaser Session and Panel Discussion *details to be announced*
 - 10:50 - 11:00, SGT(GMT+8) - Closing Remarks / Ho Seok Ahn (University of Auckland)
 
 ## Organizers

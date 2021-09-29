@@ -10,7 +10,7 @@ last_modified_at: 2021-09-29T20:23:03-05:00
 toc: true
 ---
 
-*Fully Virtual, in association with [ICSR 2021 Conference](http://www.colips.org/conferences/icsr2021/wp/)
+*Fully Virtual, in association with [ICSR 2021 Conference](http://www.colips.org/conferences/icsr2021/wp/)*
 
 ## Workshop Date
 

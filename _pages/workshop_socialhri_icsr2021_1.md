@@ -17,6 +17,7 @@ in association with [ICSR 2021 Conference](http://www.colips.org/conferences/ics
 08:00AM ~ 11:00AM SGT(Singapore Time) on Nov. 12th, 2021
 ## Invited Speakers
 
+- Prof. Guy Hoffman [[homepage](https://hrc2.io/people/guy-hoffman)] (Cornell University, USA)
 - Prof. Goldie Nejat [[homepage](https://www.mie.utoronto.ca/faculty_staff/nejat/)] (University of Toronto, Canada)
 - Dr. Dohyung Kim [[google scholar](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Dohyung+Kim+etri&btnG=)] (ETRI)
 - Prof. Chien-Ming Huang [[homepage](https://www.cs.jhu.edu/~cmhuang/)] (Johns Hopkins University, USA)

@@ -53,8 +53,8 @@ We welcome submissions of previously published works related to the topics of in
 
 ## Important Dates
 
-- Paper submission: October 15, 2021 [extended]
-- Notification of acceptance: October 30, 2021
+- Paper submission: Nov. 1, 2021 [extended]
+- Notification of acceptance: Nov. 5, 2021
 - Workshop: November 12, 2021
 
 ## Program (*tentative*)

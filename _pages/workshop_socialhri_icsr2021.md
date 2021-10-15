@@ -15,13 +15,9 @@ toc: true
 <font size="6">Date and Location</font>
 <br/>
 <font size="5" face="times">
-08:00AM ~ 11:00AM, Nov. 12th, 2021 <br/> (Singapore Time, GMT+8)<br/>
-</font>
-<font size="5" face="courier">
-Fully Virtual
-</font>
-<font size="5">
-in association with [ICSR2021](https://www.colips.org/conferences/icsr2021/wp/)
+08:00AM ~ 11:00AM, Nov. 12th, 2021 <br/>
+(Singapore Time, GMT+8)<br/>
+Fully Virtual in association with <a href="https://www.colips.org/conferences/icsr2021/wp/">ICSR2021</a>
 </font>
 <br/>
 <br/>

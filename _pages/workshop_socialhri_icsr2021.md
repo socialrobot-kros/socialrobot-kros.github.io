@@ -23,17 +23,17 @@ Fully Virtual in association with <a href="https://www.colips.org/conferences/ic
 <br/>
 
 <font size="6">Invited Speakers</font>
-
+<br/>
 <img src="https://hrc2.io/assets/images/people/guy-hoffman.jpg" width="200"/>
-
-<font size="5" face="">Prof. Guy Hoffman</font> <font size="2" face="Courier New">[homepage](https://hrc2.io/people/guy-hoffman)</font><br/>
+<br/>
+<font size="5" face="">Prof. Guy Hoffman</font> <font size="2" face="Courier New"><a href="https://hrc2.io/people/guy-hoffman">homapage</a></font><br/>
 <font size="4" face="Courier New">Cornell University</font>
 <br/>
 <br/>
 
 <img src="https://www.mie.utoronto.ca/wp-content/uploads/2019/08/Nejat_G-225x225.jpg" width="200"/>
 
-<font size="5" face="">Prof. Goldie Nejat</font> <font size="2" face="Courier New">[homepage](https://www.mie.utoronto.ca/faculty_staff/nejat/)</font><br/>
+<font size="5" face="">Prof. Goldie Nejat</font> <font size="2" face="Courier New"><a href="https://www.mie.utoronto.ca/faculty_staff/nejat/">homepage</a></font><br/>
 <font size="4" face="Courier New">University of Toronto</font>
 <br/>
 <br/>

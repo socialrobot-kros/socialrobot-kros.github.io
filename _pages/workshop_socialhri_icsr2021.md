@@ -40,14 +40,14 @@ Fully Virtual in association with <a href="https://www.colips.org/conferences/ic
 
 <img src="https://www.sosconhistory.net/soscon2019/content/images/sub/ssn-thumb-1-05.png" width="200"/>
 <br/>
-<font size="5" face="">Dr. Dohyung Kim</font> <font size="2" face="Courier New"><a href="https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Dohyung+Kim+etri&btnG=">homapage</a>)</font><br/>
+<font size="5" face="">Dr. Dohyung Kim</font> <font size="2" face="Courier New"><a href="https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Dohyung+Kim+etri&btnG=">google scholar</a></font><br/>
 <font size="4" face="Courier New">Electronics and Telecommunications Research Institute</font>
 <br/>
 <br/>
 
 <img src="https://www.cs.jhu.edu/wp-content/uploads/2017/07/Chien-Ming-Huang.jpg" width="200"/>
 <br/>
-<font size="5" face="">Prof. Chien-Ming Huang</font> <font size="2" face="Courier New"><a href="https://www.cs.jhu.edu/~cmhuang/">homepage</a>)</font><br/>
+<font size="5" face="">Prof. Chien-Ming Huang</font> <font size="2" face="Courier New"><a href="https://www.cs.jhu.edu/~cmhuang/">homepage</a></font><br/>
 <font size="4" face="Courier New">Johns Hopkins University</font>
 <br/>
 <br/>
@@ -61,9 +61,7 @@ Fully Virtual in association with <a href="https://www.colips.org/conferences/ic
 Service robots need to be devised with social intelligence to be effortlessly integrated into our everyday lives. Service robots are intended to improve the quality of life as well as efficiency in human-robot interactive applications. Especially, human-care service robots are desired to be capable of robust and stable interaction with human users.
 
 Our mission with this workshop is to share the ideas and experiences amongst participants with diverse backgrounds ranging from interaction design, social intelligence, decision making, task planning, and social psychology, and to encourage exploring how social AI for human-robot interaction can be applied to service robots for human-care in our daily lives. This workshop focuses on three social aspects of human-robot interaction of human-care service robots: (1) technical implementation of social AI, (2) form, function and behavior of human-care service robots and (3) human behavior and expectations as a means to understand the social aspects of interacting with these robots and products.
-</font>
 
-<br/>
 <br/>
 
 <center>
@@ -88,7 +86,7 @@ This workshop will focus on the current advances in the area of social human-rob
 <font size="6">Submission Guidelines</font>
 </center>
 
-We invite submission of a 2-page extended abstract in the double-column IEEE Tran format. (Latex format is provided at [templage@overleaf](https://www.overleaf.com/latex/templates/ieee-conference-template-example/nsncsyjfmpxy)).
+We invite submission of a 2-page extended abstract in the double-column IEEE Tran format. (Latex format is provided at <a href="https://www.overleaf.com/latex/templates/ieee-conference-template-example/nsncsyjfmpxy">templage@overleaf</a>).
 
 Please submit your manuscript by email to minsu(at)etri.re.kr and hs.ahn(at)auckland.ac.nz.
 
@@ -133,30 +131,31 @@ Organizers
 <br/>
 
 <img src="https://lh3.googleusercontent.com/proxy/1QW5un5ebpZsjtETtuTvIz57qbvkIhOvc3SLC3Hnw5CmQl96IY-R6sNzPfBNyugcldG94emmhoIwfuyX1f9yEjtOWNiVdloPaMFnuxY2" width="150"/>
-
-Minsu Jang<br/>
-Electronics and Telecommunications Research Institute
-
+<br/>
+<font size="3" face="Georgia">Minsu Jang</font><br/>
+<font size="3" face="Courier New">Electronics and Telecommunications Research Institute</font>
+<br/>
 <br/>
 
 <img src="https://unidirectory.auckland.ac.nz/people/imageraw/ho-ahn/10288916/biggest" width="200"/>
+<br/>
+<font size="3" face="Georgia">Ho Seok Ahn</font><br/>
+<font size="3" face="Courier New">The University of Auckland</font>
 
-Ho Seok Ahn<br/>
-The University of Auckland
-
-
+<br/>
 <br/>
 
 <img src="https://www.sciencetimes.co.kr/wp-content/uploads/2014/04/0000057314_004.jpg" width="150"/>
+<br/>
+<font size="3" face="Georgia">Jaehong Kim</font><br/>
+<font size="3" face="Courier New">Electronics and Telecommunications Research Institute</font>
 
-Jaehong Kim<br/>
-Electronics and Telecommunications Research Institute
-
+<br/>
 <br/>
 
 <img src="https://img.etnews.com/photonews/0807/200807210174_21032704_500744341_l.jpg" width="150"/>
-
-JongSuk Choi<br/>
-Korea Institute of Science and Technology
+<br/>
+<font size="3" face="Georgia">JongSuk Choi</font><br/>
+<font size="3" face="Courier New">Korea Institute of Science and Technology</font>
 
 </center>

@@ -32,22 +32,22 @@ Fully Virtual in association with <a href="https://www.colips.org/conferences/ic
 <br/>
 
 <img src="https://www.mie.utoronto.ca/wp-content/uploads/2019/08/Nejat_G-225x225.jpg" width="200"/>
-
+<br/>
 <font size="5" face="">Prof. Goldie Nejat</font> <font size="2" face="Courier New"><a href="https://www.mie.utoronto.ca/faculty_staff/nejat/">homepage</a></font><br/>
 <font size="4" face="Courier New">University of Toronto</font>
 <br/>
 <br/>
 
 <img src="https://www.sosconhistory.net/soscon2019/content/images/sub/ssn-thumb-1-05.png" width="200"/>
-
-<font size="5" face="">Dr. Dohyung Kim</font> <font size="2" face="Courier New">[homepage](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Dohyung+Kim+etri&btnG=)</font><br/>
+<br/>
+<font size="5" face="">Dr. Dohyung Kim</font> <font size="2" face="Courier New"><a href="https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Dohyung+Kim+etri&btnG=">homapage</a>)</font><br/>
 <font size="4" face="Courier New">Electronics and Telecommunications Research Institute</font>
 <br/>
 <br/>
 
 <img src="https://www.cs.jhu.edu/wp-content/uploads/2017/07/Chien-Ming-Huang.jpg" width="200"/>
-
-<font size="5" face="">Prof. Chien-Ming Huang</font> <font size="2" face="Courier New">[homepage](https://www.cs.jhu.edu/~cmhuang/)</font><br/>
+<br/>
+<font size="5" face="">Prof. Chien-Ming Huang</font> <font size="2" face="Courier New"><a href="https://www.cs.jhu.edu/~cmhuang/">homepage</a>)</font><br/>
 <font size="4" face="Courier New">Johns Hopkins University</font>
 <br/>
 <br/>

@@ -111,15 +111,39 @@ Important Dates
 <font size="6">
 Program (*tentative*)
 </font>
-</center>
 
-- 08:00 - 08:15, SGT(GMT+8) - Opening Remarks / Minsu Jang (ETRI)
-- 08:15 - 08:50, SGT(GMT+8) - Invited Talk #1 / Goldie Nejat (University of Toronto, Canada)
-- 08:50 - 09:25, SGT(GMT+8) - Invited Talk #2 / Chien-Ming Huang (Johns Hopkins University, USA)
-- 09:25 - 09:50, SGT(GMT+8) - Invited Talk #3 / Dohyung Kim (Electronics and Telecommunications Research Institute, South Korea)
-- 09:50 - 10:15, SGT(GMT+8) - Invited Talk #4 / Guy Hoffman (Cornell University, USA)
-- 10:15 - 10:50, SGT(GMT+8) - Teaser Session and Panel Discussion *details to be announced*
-- 10:50 - 11:00, SGT(GMT+8) - Closing Remarks / Ho Seok Ahn (University of Auckland)
+<table cellspacing="0" cellpadding="0">
+  <tr style="border-collapse: collapse; border: none;">
+    <td class="first">08:00 - 08:15, SGT(GMT+8)</td>
+    <td class="first">Opening Remarks / Minsu Jang</td>
+  </tr>
+  <tr style="border-collapse: collapse; border: none;">
+    <td class="first">08:15 - 08:50, SGT(GMT+8)</td>
+    <td class="first">Invited Talk #1 / Goldie Nejat</td>
+  </tr>
+  <tr style="border-collapse: collapse; border: none;">
+    <td class="first">08:50 - 09:25, SGT(GMT+8)</td>
+    <td class="first">Invited Talk #2 / Chien-Ming Huang</td>
+  </tr>
+  <tr style="border-collapse: collapse; border: none;">
+    <td class="first">09:25 - 09:50, SGT(GMT+8)</td>
+    <td class="first">Invited Talk #3 / Dohyung Kim</br><font face="times">Daily Activity Recognition of the Elderly for Human-care Robots</times><br/>As part of the solutions to an aging society, research on elderly-care robots has been actively carried out around the world. In order for robots to understand the elderly and provide context-sensitive services, robotic intelligence technologies that can identify various human attributes is essential. Among them, human action recognition(HAR) is a fundamental technology to understand the intentions of human behavior and grasp the daily life patterns of human users. This talk addresses a practical action recognition method for elderly-care robots and introduces a real-world RGB-D dataset for robots to recognize daily activities of the elderly.</td>
+  </tr>
+  <tr style="border-collapse: collapse; border: none;">
+    <td class="first">09:50 - 10:15, SGT(GMT+8)</td>
+    <td class="first">Invited Talk #4 / Guy Hoffman</td>
+  </tr>
+  <tr style="border-collapse: collapse; border: none;">
+    <td class="first">10:15 - 10:50, SGT(GMT+8)</td>
+    <td class="first">Teaser Session and Panel Discussion</td>
+  </tr>
+  <tr style="border-collapse: collapse; border: none;">
+    <td class="first">10:50 - 11:00, SGT(GMT+8)</td>
+    <td class="first">Closing Remarks / Ho Seok Ahn</td>
+  </tr>
+</table>
+
+</center>
 
 <br/>
 

@@ -154,7 +154,7 @@ Organizers
 
 <br/>
 
-<img src="http://aifesta.theblueeye.com/images/index/inst_24.jpg" width="150"/>
+<img src="/assets/images/minsujang_grey.jpg" width="150"/>
 <br/>
 <font size="3" face="Georgia">Minsu Jang</font><br/>
 <font size="3" face="Courier New">ETRI(Electronics and Telecommunications Research Institute)</font>

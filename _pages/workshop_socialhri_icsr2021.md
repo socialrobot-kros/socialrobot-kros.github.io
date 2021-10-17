@@ -157,7 +157,7 @@ Organizers
 <img src="http://aifesta.theblueeye.com/images/index/inst_24.jpg" width="150"/>
 <br/>
 <font size="3" face="Georgia">Minsu Jang</font><br/>
-<font size="3" face="Courier New">Electronics and Telecommunications Research Institute</font>
+<font size="3" face="Courier New">ETRI(Electronics and Telecommunications Research Institute)</font>
 <br/>
 <br/>
 
@@ -172,7 +172,7 @@ Organizers
 <img src="https://www.sciencetimes.co.kr/wp-content/uploads/2014/04/0000057314_004.jpg" width="150"/>
 <br/>
 <font size="3" face="Georgia">Jaehong Kim</font><br/>
-<font size="3" face="Courier New">Electronics and Telecommunications Research Institute</font>
+<font size="3" face="Courier New">ETRI(Electronics and Telecommunications Research Institute)</font>
 
 <br/>
 <br/>
@@ -180,6 +180,6 @@ Organizers
 <img src="https://img.etnews.com/photonews/0807/200807210174_21032704_500744341_l.jpg" width="150"/>
 <br/>
 <font size="3" face="Georgia">JongSuk Choi</font><br/>
-<font size="3" face="Courier New">Korea Institute of Science and Technology</font>
+<font size="3" face="Courier New">KIST(Korea Institute of Science and Technology)</font>
 
 </center>

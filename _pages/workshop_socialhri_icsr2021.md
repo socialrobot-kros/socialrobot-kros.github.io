@@ -110,8 +110,10 @@ Important Dates
 <font size="6">
 Program (*tentative*)
 </font>
+</center>
 
-<table cellspacing="0" cellpadding="0">
+<font size="3">
+<table class="center" cellspacing="0" cellpadding="0">
   <tr style="border-collapse: collapse; border: none;">
     <td class="first">08:00 - 08:15, SGT(GMT+8)</td>
     <td class="first">Opening Remarks / Minsu Jang</td>
@@ -141,8 +143,7 @@ Program (*tentative*)
     <td class="first">Closing Remarks / Ho Seok Ahn</td>
   </tr>
 </table>
-
-</center>
+<font>
 
 <br/>
 
@@ -153,7 +154,7 @@ Organizers
 
 <br/>
 
-<img src="/assets/images/minsujang_grey.jpg" width="150"/>
+<img src="http://aifesta.theblueeye.com/images/index/inst_24.jpg" width="150"/>
 <br/>
 <font size="3" face="Georgia">Minsu Jang</font><br/>
 <font size="3" face="Courier New">Electronics and Telecommunications Research Institute</font>

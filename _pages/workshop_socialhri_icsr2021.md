@@ -41,7 +41,7 @@ Fully Virtual in association with <a href="https://www.colips.org/conferences/ic
 <img src="https://www.sosconhistory.net/soscon2019/content/images/sub/ssn-thumb-1-05.png" width="200"/>
 <br/>
 <font size="5" face="">Dr. Dohyung Kim</font> <font size="2" face="Courier New"><a href="https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Dohyung+Kim+etri&btnG=">google scholar</a></font><br/>
-<font size="4" face="Courier New">Electronics and Telecommunications Research Institute</font>
+<font size="4" face="Courier New">ETRI(Electronics and Telecommunications Research Institute)</font>
 <br/>
 <br/>
 

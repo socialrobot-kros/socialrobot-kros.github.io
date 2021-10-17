@@ -112,38 +112,38 @@ Program (*tentative*)
 </font>
 </center>
 
-<font size="3">
-<table class="center" cellspacing="0" cellpadding="0">
+<center>
+<table style='center; font-family:"Courier New", Courier, monospace; font-size:100%' cellspacing="0" cellpadding="0">
   <tr style="border-collapse: collapse; border: none;">
-    <td class="first">08:00 - 08:15, SGT(GMT+8)</td>
-    <td class="first">Opening Remarks / Minsu Jang</td>
+    <td>08:00 - 08:15, SGT(GMT+8)</td>
+    <td>Opening Remarks / Minsu Jang</td>
   </tr>
   <tr style="border-collapse: collapse; border: none;">
-    <td class="first">08:15 - 08:50, SGT(GMT+8)</td>
-    <td class="first">Invited Talk #1 / Goldie Nejat</td>
+    <td>08:15 - 08:50, SGT(GMT+8)</td>
+    <td>Invited Talk #1 / Goldie Nejat</td>
   </tr>
   <tr style="border-collapse: collapse; border: none;">
-    <td class="first">08:50 - 09:25, SGT(GMT+8)</td>
-    <td class="first">Invited Talk #2 / Chien-Ming Huang</td>
+    <td>08:50 - 09:25, SGT(GMT+8)</td>
+    <td>Invited Talk #2 / Chien-Ming Huang</td>
   </tr>
   <tr style="border-collapse: collapse; border: none;">
-    <td class="first">09:25 - 09:50, SGT(GMT+8)</td>
-    <td class="first">Invited Talk #3 / Dohyung Kim</td>
+    <td>09:25 - 09:50, SGT(GMT+8)</td>
+    <td>Invited Talk #3 / Dohyung Kim</td>
   </tr>
   <tr style="border-collapse: collapse; border: none;">
-    <td class="first">09:50 - 10:15, SGT(GMT+8)</td>
-    <td class="first">Invited Talk #4 / Guy Hoffman</td>
+    <td>09:50 - 10:15, SGT(GMT+8)</td>
+    <td>Invited Talk #4 / Guy Hoffman</td>
   </tr>
   <tr style="border-collapse: collapse; border: none;">
-    <td class="first">10:15 - 10:50, SGT(GMT+8)</td>
-    <td class="first">Teaser Session and Panel Discussion</td>
+    <td>10:15 - 10:50, SGT(GMT+8)</td>
+    <td>Teaser Session and Panel Discussion</td>
   </tr>
   <tr style="border-collapse: collapse; border: none;">
-    <td class="first">10:50 - 11:00, SGT(GMT+8)</td>
-    <td class="first">Closing Remarks / Ho Seok Ahn</td>
+    <td>10:50 - 11:00, SGT(GMT+8)</td>
+    <td>Closing Remarks / Ho Seok Ahn</td>
   </tr>
 </table>
-<font>
+</center>
 
 <br/>
 

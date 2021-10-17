@@ -112,7 +112,7 @@ Program (*tentative*)
 </font>
 </center>
 
-<table style='center; font-family:"Courier New", Courier, monospace; font-size:100%; margin-left:auto;margin-right:auto;' cellspacing="0" cellpadding="0">
+<table style='font-family:"Courier New", Courier, monospace; font-size:100%; margin-left:auto;margin-right:auto;' cellspacing="0" cellpadding="0">
   <tr style="border-collapse: collapse; border: none;">
     <td>08:00 - 08:15, SGT(GMT+8)</td>
     <td>Opening Remarks / Minsu Jang</td>

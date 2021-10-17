@@ -91,7 +91,6 @@ We invite submission of a 2-page extended abstract in the double-column IEEE Tra
 Please submit your manuscript by email to minsu(at)etri.re.kr and hs.ahn(at)auckland.ac.nz.
 
 We welcome submissions of previously published works related to the topics of interest of this workshop. We do not officially publish a proceedings, so you can submit and publish your work in other conferences or journals.
-</font>
 
 <br/>
 
@@ -127,7 +126,7 @@ Program (*tentative*)
   </tr>
   <tr style="border-collapse: collapse; border: none;">
     <td class="first">09:25 - 09:50, SGT(GMT+8)</td>
-    <td class="first">Invited Talk #3 / Dohyung Kim</br><font face="times">Daily Activity Recognition of the Elderly for Human-care Robots</times><br/>As part of the solutions to an aging society, research on elderly-care robots has been actively carried out around the world. In order for robots to understand the elderly and provide context-sensitive services, robotic intelligence technologies that can identify various human attributes is essential. Among them, human action recognition(HAR) is a fundamental technology to understand the intentions of human behavior and grasp the daily life patterns of human users. This talk addresses a practical action recognition method for elderly-care robots and introduces a real-world RGB-D dataset for robots to recognize daily activities of the elderly.</td>
+    <td class="first">Invited Talk #3 / Dohyung Kim</td>
   </tr>
   <tr style="border-collapse: collapse; border: none;">
     <td class="first">09:50 - 10:15, SGT(GMT+8)</td>
@@ -154,7 +153,7 @@ Organizers
 
 <br/>
 
-<img src="https://lh3.googleusercontent.com/proxy/1QW5un5ebpZsjtETtuTvIz57qbvkIhOvc3SLC3Hnw5CmQl96IY-R6sNzPfBNyugcldG94emmhoIwfuyX1f9yEjtOWNiVdloPaMFnuxY2" width="150"/>
+<img src="/assets/images/minsujang_grey.jpg" width="150"/>
 <br/>
 <font size="3" face="Georgia">Minsu Jang</font><br/>
 <font size="3" face="Courier New">Electronics and Telecommunications Research Institute</font>

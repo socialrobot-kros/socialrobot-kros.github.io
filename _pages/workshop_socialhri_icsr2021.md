@@ -112,35 +112,65 @@ Program (*tentative*)
 </font>
 </center>
 
-<table style='font-family:"Courier New", Courier, monospace; font-size:100%; margin-left:auto;margin-right:auto;' cellspacing="0" cellpadding="0">
-  <tr style="border-collapse: collapse; border: none;">
-    <td>08:00 - 08:15, SGT(GMT+8)</td>
-    <td>Opening Remarks / Minsu Jang</td>
-  </tr>
-  <tr style="border-collapse: collapse; border: none;">
-    <td>08:15 - 08:50, SGT(GMT+8)</td>
-    <td>Invited Talk #1 / Goldie Nejat</td>
-  </tr>
-  <tr style="border-collapse: collapse; border: none;">
-    <td>08:50 - 09:25, SGT(GMT+8)</td>
-    <td>Invited Talk #2 / Chien-Ming Huang</td>
-  </tr>
-  <tr style="border-collapse: collapse; border: none;">
-    <td>09:25 - 09:50, SGT(GMT+8)</td>
-    <td>Invited Talk #3 / Dohyung Kim</td>
-  </tr>
-  <tr style="border-collapse: collapse; border: none;">
-    <td>09:50 - 10:15, SGT(GMT+8)</td>
-    <td>Invited Talk #4 / Guy Hoffman</td>
-  </tr>
-  <tr style="border-collapse: collapse; border: none;">
-    <td>10:15 - 10:50, SGT(GMT+8)</td>
-    <td>Teaser Session and Panel Discussion</td>
-  </tr>
-  <tr style="border-collapse: collapse; border: none;">
-    <td>10:50 - 11:00, SGT(GMT+8)</td>
-    <td>Closing Remarks / Ho Seok Ahn</td>
-  </tr>
+<table class="w3-center w3-border-top  w3-border-grey w3-border-bottom  w3-border-grey" cellpadding="2" cellspacing="0" style="table-layout: fixed; font-size: 15px; width: auto;">					
+    <tr class="w3-border-bottom  w3-border-grey">
+    <td ><b>Time (SGT Singapore)</b></td><td><b>Session</b></td><td><b>Speaker</b></td><td><b>Chair</b></td>
+    </tr>
+    <tr class="general">
+      <td>08:00 - 08:15 </td>
+      <td> Welcome / Opening Remarks</td>
+      <td>Minsu Jang</td>
+      <td>Minsu Jang</td>
+    </tr>
+    <tr class="keynote">
+    <td>08:15 - 08:50</td>
+      <td>Invited Talk 1:  <br> 
+                                      <span class="talk_ttl"><b>Life with Socially Assistive Robots: Intelligent Robots that Here to Help</b></span><br/>
+                                      <span><i>Socially assistive robots are a unique disruptive innovation that will become a crucial part of everyday society, especially in a post-pandemic world. They will aid people with everyday tasks, improve quality of life, and meet the urgent and immediate needs of an aging population. This talk will present some of my group’s (asblab.mie.utoronto.ca) recent research efforts in developing intelligent and autonomous social robots to provide personalized care, and promote independence (aging-in-place) and overall wellbeing of older adults, including those living with dementia. In particular, we will discuss our Brian, Casper, Tangy, Blueberry, Salt and Pepper, and Luke and Leia socially assistive robots that are being designed to provide cognitive and social interventions, help with activities of daily living, and lead group recreational activities in human-centered environments through social human-robot interactions. These interactive robots can serve as assistants to individuals as well as groups of users, while learning to personalize their interactions to the needs of the users by using unique bi-directional affect and persuasive strategies. Numerous user studies conducted with older adults in care settings will also be discussed to highlight how these robots can effectively be integrated into people’s everyday lives to support person-centered care. </i></span>
+      </td>
+      <td>Goldie Nejat</td>
+      <td>Minsu Jang</td>
+    </tr>
+    <tr class="keynote">
+      <td>08:50 - 09:25</td>
+      <td>Invited Talk 2:  <br> 
+                                <span class="talk_ttl"><b>"Modeling, Learning, and Teaching Social Skills"</b></span>
+                                <br>
+                                <span><i>In this talk, I will present some of research projects from my group that explore 1) computational modeling of human social skills, 2) reinforcement	learning of social behavior, and 3) how a social robot may teach social skills to children with ASD. I will use these projects to illustrate the complex, rich space of designing social AI for human-robot interaction.</i></span>
+                                        </td>
+      <td>Chien-Ming Huang</td><td>Ho Seok Ahn</td>
+    </tr>
+    <tr class="keynote">
+      <td>09:25 - 09:50</td>
+      <td>Invited Talk 3:  <br> 
+                                <span class="talk_ttl"><b>Daily Activity Recognition of the Elderly for Human-care Robots
+</b></span><br/>
+<span><i>As part of the solutions to an aging society, research on elderly-care robots has been actively carried out around the world. In order for robots to understand the elderly and provide context-sensitive services, robotic intelligence technologies that can identify various human attributes is essential. Among them, human action recognition(HAR) is a fundamental technology to understand the intentions of human behavior and grasp the daily life patterns of human users. This talk addresses a practical action recognition method for elderly-care robots and introduces a real-world RGB-D dataset for robots to recognize daily activities of the elderly.</i></span>
+      </td>
+      <td>Dohyung Kim</td>
+      <td>Minsu Jang</td>
+    </tr>
+    <tr class="keynote">
+      <td>09:50 - 10:15</td>
+      <td>Invited Talk 4  <br> 
+                                <span class="talk_ttl"><b></b></span>
+<span><i></i></span>
+      </td>
+      <td>Guy Hoffman</td>
+      <td>Ho Seok Ahn</td>
+    </tr>
+    <tr style="break">
+      <td>10:15 - 10:50</td>
+      <td>Teaser Session / Panel Discussion</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr class="general">
+      <td>10:50 - 11:00</td>
+      <td> Closing Remarks </td>
+      <td>Ho Seok Ahn</td>
+      <td>Ho Seok Ahn</td>
+    </tr>
 </table>
 
 <br/>

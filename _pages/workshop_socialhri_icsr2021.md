@@ -152,9 +152,11 @@ Program (*tentative*)
     </tr>
     <tr class="keynote">
       <td>09:50 - 10:15</td>
-      <td>Invited Talk 4  <br> 
-                                <span class="talk_ttl"><b></b></span>
-<span><i></i></span>
+      <td>Invited Talk 4 (pre-recorded talk presentation) <br> 
+                                <span class="talk_ttl"><b>Human-Robot Interaction Challenges in the Workplace
+</b></span><br/>
+<span><i>While there has been much research on HRI challenges in the context of the home and public spaces, many interaction issues arising from humans sharing their workplace with robots have not received as much focused attention. This talk highlights questions that arise around human-worker interaction in common workplaces, which should be of particular interest to HRI research, as much of the concern, both economic and societal, is surrounding the relationship between humans and robots at work. I will map challenges specific to the workplace and application areas for HRI at work, as well as highlight research in our lab that tackles some interaction issues that arise in the workplace.
+</i></span>
       </td>
       <td>Guy Hoffman</td>
       <td>Ho Seok Ahn</td>

@@ -161,9 +161,19 @@ Program (*tentative*)
       <td>Guy Hoffman</td>
       <td>Ho Seok Ahn</td>
     </tr>
-    <tr style="break">
+    <tr style="general">
       <td>10:15 - 10:50</td>
-      <td>Teaser Session / Panel Discussion</td>
+      <td><b>Paper Presentation Session</b><br/>
+      <span class="talk_ttl">
+      <ol>
+      <li>Michał Stolarz, Aleksandar Mitrevski, Mohammad Wasil, and Paul Plöger, “<b>Personalised Behaviour Model for Autism Therapy</b>,” Hochschule Bonn-Rhein-Sieg Sankt Augustin, Germany <a href="/assets/resources/ICSR2021_Workshop_SHRI_Michał Stolarz.pdf">pdf</a></li><br/>
+      <li>Woo-Ri Ko, Minsu Jang, Jaeyeon Lee, and Jaehong Kim, “<b>End-to-End Learning-Based Non-Verbal Behavior Generation of Social Robots,</b>” Electronics and Telecommunications Research Institute, Korea <a href="/assets/resources/ICSR2021_Workshop_SHRI_WooriKo.pdf">pdf</a></li><br/>
+      <li> Miyoung Cho, Daeha Lee, Choulsoo Jang, Dohyung Kim, and Minsu Jang, “<b>Real-World Verification of Human-Care Robot for the Elderly: A Preliminary Result</b>,” Electronics and Telecommunications Research Institute, Korea <a href="/assets/resources/ICSR2021_Workshop_SHRI_MiyoungCho.pdf">pdf</a></li><br/>
+      <li> a paper <i>information to be updated</i></li><br/>
+      <li> Norina Gasteiger, Ho Seok Ahn, Christopher Lee, JongYoon Lim, Bruce A. MacDonald, Geon Ha Kim, and Elizabeth Broadbent, “<b>Developing assistive health robots for older adults: An international four-year project and participatory design case study</b>,” The University of Auckland, New Zealand, and The University of Manchester, United Kingdom <a href="/assets/resources/ICSR2021_Workshop_SHRI_Norina.pdf">pdf</a></li><br/>
+      <li> Deborah L. Johanson, Ho Seok Ahn, Bruce A. MacDonald, Byeong Kyu Ahn, Jong Yoon Lim, Christopher Lee, Eddie Hwang, Rishab Goswami, Kazuki Saegusa, and Elizabeth Broadbent, “<b>The Effect of Attention, Humour, and Empathy Behaviours by a Healthcare Robot on User Perceptions and Behaviors</b>,” The University of Auckland, New Zealand <a href="/assets/resources/ICSR2021_Workshop_SHRI_Debbie.pdf">pdf</a></li>
+      </span>
+      </td>
       <td></td>
       <td></td>
     </tr>

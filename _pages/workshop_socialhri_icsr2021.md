@@ -202,7 +202,7 @@ Organizers
 <br/>
 <br/>
 
-<img src="/assets/images/biggest" width="200"/>
+<img src="/assets/images/biggest.jpeg" width="200"/>
 <br/>
 <font size="3" face="Georgia">Ho Seok Ahn</font><br/>
 <font size="3" face="Courier New">The University of Auckland</font>

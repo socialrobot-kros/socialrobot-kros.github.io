@@ -108,7 +108,7 @@ Important Dates
 
 <center>
 <font size="6">
-Program (*tentative*)
+Program
 </font>
 </center>
 

@@ -24,28 +24,28 @@ Fully Virtual in association with <a href="https://www.colips.org/conferences/ic
 
 <font size="6">Invited Speakers</font>
 <br/>
-<img src="https://hrc2.io/assets/images/people/guy-hoffman.jpg" width="200"/>
+<img src="/assets/images/guy-hoffman.jpg" width="200"/>
 <br/>
 <font size="5" face="">Prof. Guy Hoffman</font> <font size="2" face="Courier New"><a href="https://hrc2.io/people/guy-hoffman">homapage</a></font><br/>
 <font size="4" face="Courier New">Cornell University</font>
 <br/>
 <br/>
 
-<img src="https://www.mie.utoronto.ca/wp-content/uploads/2019/08/Nejat_G-225x225.jpg" width="200"/>
+<img src="/assets/images/Nejat_G-225x225.jpg" width="200"/>
 <br/>
 <font size="5" face="">Prof. Goldie Nejat</font> <font size="2" face="Courier New"><a href="https://www.mie.utoronto.ca/faculty_staff/nejat/">homepage</a></font><br/>
 <font size="4" face="Courier New">University of Toronto</font>
 <br/>
 <br/>
 
-<img src="https://www.sosconhistory.net/soscon2019/content/images/sub/ssn-thumb-1-05.png" width="200"/>
+<img src="/assets/images/ssn-thumb-1-05.png" width="200"/>
 <br/>
 <font size="5" face="">Dr. Dohyung Kim</font> <font size="2" face="Courier New"><a href="https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Dohyung+Kim+etri&btnG=">google scholar</a></font><br/>
 <font size="4" face="Courier New">ETRI(Electronics and Telecommunications Research Institute)</font>
 <br/>
 <br/>
 
-<img src="https://www.cs.jhu.edu/wp-content/uploads/2017/07/Chien-Ming-Huang.jpg" width="200"/>
+<img src="/assets/images/Chien-Ming-Huang.jpg" width="200"/>
 <br/>
 <font size="5" face="">Prof. Chien-Ming Huang</font> <font size="2" face="Courier New"><a href="https://www.cs.jhu.edu/~cmhuang/">homepage</a></font><br/>
 <font size="4" face="Courier New">Johns Hopkins University</font>
@@ -166,12 +166,12 @@ Program (*tentative*)
       <td><b>Paper Presentation Session</b><br/>
       <span class="talk_ttl">
       <ol>
-      <li>Michał Stolarz, Aleksandar Mitrevski, Mohammad Wasil, and Paul Plöger, “<b>Personalised Behaviour Model for Autism Therapy</b>,” Hochschule Bonn-Rhein-Sieg Sankt Augustin, Germany <a href="/assets/resources/ICSR2021_Workshop_SHRI_Michał Stolarz.pdf">pdf</a></li>
-      <li>Woo-Ri Ko, Minsu Jang, Jaeyeon Lee, and Jaehong Kim, “<b>End-to-End Learning-Based Non-Verbal Behavior Generation of Social Robots,</b>” Electronics and Telecommunications Research Institute, Korea <a href="/assets/resources/ICSR2021_Workshop_SHRI_WooriKo.pdf">pdf</a></li>
-      <li> Miyoung Cho, Daeha Lee, Choulsoo Jang, Dohyung Kim, and Minsu Jang, “<b>Real-World Verification of Human-Care Robot for the Elderly: A Preliminary Result</b>,” Electronics and Telecommunications Research Institute, Korea <a href="/assets/resources/ICSR2021_Workshop_SHRI_MiyoungCho.pdf">pdf</a></li>
-      <li> a paper <i>information to be updated</i></li>
-      <li> Norina Gasteiger, Ho Seok Ahn, Christopher Lee, JongYoon Lim, Bruce A. MacDonald, Geon Ha Kim, and Elizabeth Broadbent, “<b>Developing assistive health robots for older adults: An international four-year project and participatory design case study</b>,” The University of Auckland, New Zealand, and The University of Manchester, United Kingdom <a href="/assets/resources/ICSR2021_Workshop_SHRI_Norina.pdf">pdf</a></li>
-      <li> Deborah L. Johanson, Ho Seok Ahn, Bruce A. MacDonald, Byeong Kyu Ahn, Jong Yoon Lim, Christopher Lee, Eddie Hwang, Rishab Goswami, Kazuki Saegusa, and Elizabeth Broadbent, “<b>The Effect of Attention, Humour, and Empathy Behaviours by a Healthcare Robot on User Perceptions and Behaviors</b>,” The University of Auckland, New Zealand <a href="/assets/resources/ICSR2021_Workshop_SHRI_Debbie.pdf">pdf</a></li>
+      <li>Michał Stolarz, Aleksandar Mitrevski, Mohammad Wasil, and Paul Plöger, “<b>Personalised Behaviour Model for Autism Therapy</b>,” Hochschule Bonn-Rhein-Sieg Sankt Augustin, Germany [<a href="/assets/resources/ICSR2021_Workshop_SHRI_MichałStolarz.pdf">paper</a>][<a href="/assets/resources/ICSR2021_Workshop_SHRI_MichałStolarz_presentation.pdf">presentation</a>]</li>
+      <li> Hyeonuk Bhin, Yoonseob Lim and Jongsuk Choi, “<b>A Robot Framework Design for Human-Robot Interaction with Task State Model in Real Environments</b>,” Korea Institute of of Science and Technology, South Korea [paper][presentation]</li>
+      <li> Norina Gasteiger, Ho Seok Ahn, Christopher Lee, JongYoon Lim, Bruce A. MacDonald, Geon Ha Kim, and Elizabeth Broadbent, “<b>Developing assistive health robots for older adults: An international four-year project and participatory design case study</b>,” The University of Auckland, New Zealand, and The University of Manchester, United Kingdom [<a href="/assets/resources/ICSR2021_Workshop_SHRI_Norina.pdf">paper</a>][<a href="/assets/resources/ICSR2021_Workshop_SHRI_Norina_presentation.pdf">presentation</a>]</li>
+      <li>Woo-Ri Ko, Minsu Jang, Jaeyeon Lee, and Jaehong Kim, “<b>End-to-End Learning-Based Non-Verbal Behavior Generation of Social Robots,</b>” Electronics and Telecommunications Research Institute, Korea [<a href="/assets/resources/ICSR2021_Workshop_SHRI_WooriKo.pdf">paper</a>][<a href="/assets/resources/ICSR2021_Workshop_SHRI_WooriKo_presentation.pdf">presentation</a>]</li>
+      <li> Miyoung Cho, Daeha Lee, Choulsoo Jang, Dohyung Kim, and Minsu Jang, “<b>Real-World Verification of Human-Care Robot for the Elderly: A Preliminary Result</b>,” Electronics and Telecommunications Research Institute, Korea [<a href="/assets/resources/ICSR2021_Workshop_SHRI_MiyoungCho.pdf">paper</a>]</li>
+      <li> Deborah L. Johanson, Ho Seok Ahn, Bruce A. MacDonald, Byeong Kyu Ahn, Jong Yoon Lim, Christopher Lee, Eddie Hwang, Rishab Goswami, Kazuki Saegusa, and Elizabeth Broadbent, “<b>The Effect of Attention, Humour, and Empathy Behaviours by a Healthcare Robot on User Perceptions and Behaviors</b>,” The University of Auckland, New Zealand [<a href="/assets/resources/ICSR2021_Workshop_SHRI_Debbie.pdf">paper</a>][<a href="/assets/resources/ICSR2021_Workshop_SHRI_Debbie_presentation.pdf">presentation</a>]</li>
       </ol>
       </span>
       </td>
@@ -202,7 +202,7 @@ Organizers
 <br/>
 <br/>
 
-<img src="https://unidirectory.auckland.ac.nz/people/imageraw/ho-ahn/10288916/biggest" width="200"/>
+<img src="/assets/images/biggest" width="200"/>
 <br/>
 <font size="3" face="Georgia">Ho Seok Ahn</font><br/>
 <font size="3" face="Courier New">The University of Auckland</font>
@@ -210,7 +210,7 @@ Organizers
 <br/>
 <br/>
 
-<img src="https://www.sciencetimes.co.kr/wp-content/uploads/2014/04/0000057314_004.jpg" width="150"/>
+<img src="/assets/images/0000057314_004.jpg" width="150"/>
 <br/>
 <font size="3" face="Georgia">Jaehong Kim</font><br/>
 <font size="3" face="Courier New">ETRI(Electronics and Telecommunications Research Institute)</font>
@@ -218,7 +218,7 @@ Organizers
 <br/>
 <br/>
 
-<img src="https://img.etnews.com/photonews/0807/200807210174_21032704_500744341_l.jpg" width="150"/>
+<img src="/assets/images/200807210174_21032704_500744341_l.jpg" width="150"/>
 <br/>
 <font size="3" face="Georgia">JongSuk Choi</font><br/>
 <font size="3" face="Courier New">KIST(Korea Institute of Science and Technology)</font>

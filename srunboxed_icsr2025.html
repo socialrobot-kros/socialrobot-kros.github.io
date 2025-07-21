@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Robots Unboxed | ICSR+AI 2025 Workshop</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .hero-gradient {
+            background: linear-gradient(135deg, rgba(59, 130, 246, 0.9) 0%, rgba(168, 85, 247, 0.9) 100%);
+        }
+        /* This class now only provides the underline effect. */
+        .section-title {
+            position: relative;
+            padding-bottom: 1rem; /* Adds space for the underline */
+        }
+        /* Decorative underline for the section title */
+        .section-title::after {
+            content: '';
+            position: absolute;
+            display: block;
+            width: 80px;
+            height: 4px;
+            background: linear-gradient(135deg, #3B82F6, #A855F7); /* Gradient matches hero section */
+            border-radius: 2px;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        .section-subtitle {
+            @apply text-lg text-gray-500 mb-12 text-center max-w-3xl mx-auto;
+        }
+        .card {
+            @apply bg-white rounded-xl shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+
+    <!-- Header & Navigation -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold text-gray-800">
+                <span class="text-blue-600">SR</span> Unboxed 2025
+            </a>
+            <div class="hidden md:flex space-x-8">
+                <a href="#about" class="text-gray-600 hover:text-blue-600 font-medium">About</a>
+                <a href="#topics" class="text-gray-600 hover:text-blue-600 font-medium">Topics</a>
+                <a href="#speakers" class="text-gray-600 hover:text-blue-600 font-medium">Speakers</a>
+                <a href="#program" class="text-gray-600 hover:text-blue-600 font-medium">Program</a>
+                <a href="#organizers" class="text-gray-600 hover:text-blue-600 font-medium">Organizers</a>
+                <a href="#outcomes" class="text-gray-600 hover:text-blue-600 font-medium">Outcomes</a>
+            </div>
+            <button id="mobile-menu-button" class="md:hidden flex items-center">
+                 <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+            </button>
+        </nav>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden">
+            <a href="#about" class="block py-2 px-4 text-sm hover:bg-gray-100">About</a>
+            <a href="#topics" class="block py-2 px-4 text-sm hover:bg-gray-100">Topics</a>
+            <a href="#speakers" class="block py-2 px-4 text-sm hover:bg-gray-100">Speakers</a>
+            <a href="#program" class="block py-2 px-4 text-sm hover:bg-gray-100">Program</a>
+            <a href="#organizers" class="block py-2 px-4 text-sm hover:bg-gray-100">Organizers</a>
+            <a href="#outcomes" class="block py-2 px-4 text-sm hover:bg-gray-100">Outcomes</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative text-white py-24 sm:py-32 px-6">
+        <div class="absolute inset-0 hero-gradient"></div>
+        <div class="absolute inset-0 bg-cover bg-center opacity-10" style="background-image: url('https://placehold.co/1920x1080/e0e0e0/e0e0e0?text=')"></div>
+        <div class="container mx-auto text-center relative z-10">
+            <h1 class="text-4xl md:text-6xl font-extrabold leading-tight mb-4">Social Robots Unboxed</h1>
+            <p class="text-xl md:text-2xl font-light mb-2">What Do We Want from the Robots?</p>
+            <p class="font-semibold bg-white bg-opacity-20 inline-block px-4 py-1 rounded-full">A Half-Day Workshop at ICSR+AI 2025</p>
+        </div>
+    </section>
+
+    <main class="container mx-auto px-6 py-16">
+
+        <!-- About Section -->
+        <section id="about" class="mb-24">
+            <h2 class="section-title text-3xl font-bold text-gray-800 mb-2 text-center">About the Workshop</h2>
+            <p class="section-subtitle">Bridging the gap between technical capabilities and user expectations in social robotics.</p>
+            <div class="grid md:grid-cols-5 gap-12 items-center">
+                <div class="md:col-span-3 text-lg text-gray-700 space-y-4">
+                    <p>With social robots increasingly present in homes, hospitals, schools, and public spaces, there remains a crucial gap between current technical capabilities and user expectations. This half-day workshop, "Social Robots Unboxed," aims to assemble leading researchers, industry experts, and end-users to explore state-of-the-art social robot products, debate their applications, and chart a human-centric roadmap for future development.</p>
+                    <p>Despite impressive technical progress in perception, dialogue, and mobility, many questions remain: What functionalities do end-users truly value? Which ethical and privacy concerns must we address? How can academia, industry, and user communities collaborate effectively?</p>
+                </div>
+                <div class="md:col-span-2 bg-blue-100 p-8 rounded-xl border-l-4 border-blue-500">
+                    <h3 class="text-2xl font-bold text-blue-800 mb-4">Workshop Objectives</h3>
+                    <ul class="space-y-3 list-disc list-inside text-blue-900">
+                        <li><strong>Survey the State of the Art:</strong> Showcase current social robot products and services.</li>
+                        <li><strong>Envision Future Applications:</strong> Gather diverse perspectives on roles for social robots.</li>
+                        <li><strong>Foster Collaboration:</strong> Provide a forum for networking and identifying partnerships.</li>
+                        <li><strong>Capture User Wishes:</strong> Generate a feature "Wish List" to guide next-gen robot design.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Topics Section -->
+        <section id="topics" class="mb-24">
+            <h2 class="section-title text-3xl font-bold text-gray-800 mb-2 text-center">Key Topics</h2>
+            <p class="section-subtitle">Our discussions will revolve around the critical challenges and opportunities in social robotics.</p>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="card p-8 text-center">
+                    <h3 class="font-bold text-xl mb-2">Commercial Products & Services</h3>
+                    <p class="text-gray-600">Analyzing capabilities, market readiness, and applications in healthcare, education, and hospitality.</p>
+                </div>
+                <div class="card p-8 text-center">
+                    <h3 class="font-bold text-xl mb-2">Core Functions</h3>
+                    <p class="text-gray-600">Exploring advances in speech, emotion recognition, and non-verbal behaviors.</p>
+                </div>
+                <div class="card p-8 text-center">
+                    <h3 class="font-bold text-xl mb-2">Ethics & Privacy</h3>
+                    <p class="text-gray-600">Addressing data policies, consent mechanisms, and cultural adaptation.</p>
+                </div>
+                <div class="card p-8 text-center">
+                    <h3 class="font-bold text-xl mb-2">Design & UX</h3>
+                    <p class="text-gray-600">Focusing on embodiment, personalization, and long-term adaptability.</p>
+                </div>
+                <div class="card p-8 text-center">
+                    <h3 class="font-bold text-xl mb-2">Deployment Challenges</h3>
+                    <p class="text-gray-600">Tackling issues of scalability, reliability, and cost-effectiveness.</p>
+                </div>
+                <div class="card p-8 text-center">
+                    <h3 class="font-bold text-xl mb-2">User Acceptance</h3>
+                    <p class="text-gray-600">Investigating trust, engagement, and the factors driving long-term impact.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Speakers Section -->
+        <section id="speakers" class="mb-24">
+            <h2 class="section-title text-3xl font-bold text-gray-800 mb-2 text-center">Invited Speakers</h2>
+            <p class="section-subtitle">Hear from leading experts at the forefront of social robotics research and industry.</p>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Speaker Card -->
+                <div class="card text-center p-6">
+                    <img src="./ross_mead.jpg" alt="Ross Mead" class="w-32 h-32 rounded-full mx-auto mb-4 border-4 border-white shadow-md">
+                    <h3 class="text-xl font-bold">Ross Mead, PhD</h3>
+                    <p class="text-gray-500 mb-2">CEO, Semio</p>
+                    <p class="text-sm text-gray-600">Founder and CEO of Semio AI, defining how people will live, work, and play with robots.</p>
+                </div>
+                <!-- Speaker Card -->
+                <div class="card text-center p-6">
+                    <img src="./yunsung.png" alt="Yunsung Kim" class="w-32 h-32 rounded-full mx-auto mb-4 border-4 border-white shadow-md">
+                    <h3 class="text-xl font-bold">Yunsung Kim</h3>
+                    <p class="text-gray-500 mb-2">Principal Researcher, LG Electronics</p>
+                    <p class="text-sm text-gray-600">Engaged in designing robot platform architecture and SDKs based on ROS 2 for devices like the LG Q9.</p>
+                </div>
+                <!-- Speaker Card -->
+                <div class="card text-center p-6">
+                    <img src="./kyungman.png" alt="Kyungman Yoo" class="w-32 h-32 rounded-full mx-auto mb-4 border-4 border-white shadow-md">
+                    <h3 class="text-xl font-bold">Kyungman Yoo</h3>
+                    <p class="text-gray-500 mb-2">Principal Researcher, LG Electronics</p>
+                    <p class="text-sm text-gray-600">Co-developer of the LG AI Companion Device (Q9) platform and SDKs.</p>
+                </div>
+                 <!-- Speaker Card -->
+                <div class="card text-center p-6">
+                    <img src="./sonya.png" alt="Sonya Kwak" class="w-32 h-32 rounded-full mx-auto mb-4 border-4 border-white shadow-md">
+                    <h3 class="text-xl font-bold">Sonya Kwak, PhD</h3>
+                    <p class="text-gray-500 mb-2">Senior Research Scientist, KIST</p>
+                    <p class="text-sm text-gray-600">Focuses on HRI design of social robots and robotic products, co-creator of CollaBot.</p>
+                </div>
+                <!-- Speaker Card: Franziska Kirstein -->
+                <div class="card text-center p-6">
+                    <img src="./franziska.png" alt="Franziska Kirstein" class="w-32 h-32 rounded-full mx-auto mb-4 border-4 border-white shadow-md">
+                    <h3 class="text-xl font-bold">Franziska Kirstein</h3>
+                    <p class="text-gray-500 mb-2">Research And Development Specialist, Blue Ocean Robotics</p>
+                    <p class="text-sm text-gray-600">An expert in Human-Robot Interaction, focusing on user-centered design and commercialization of service robots.</p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Program Section -->
+        <section id="program" class="mb-24">
+            <h2 class="section-title text-3xl font-bold text-gray-800 mb-2 text-center">Program</h2>
+            <div class="text-center mt-12">
+                 <p class="text-xl italic text-gray-600">To be announced</p>
+            </div>
+        </section>
+
+        <!-- Organizers Section -->
+        <section id="organizers" class="mb-24">
+            <h2 class="section-title text-3xl font-bold text-gray-800 mb-2 text-center">Organizers</h2>
+            <p class="section-subtitle">Meet the team behind the "Social Robots Unboxed" workshop.</p>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center">
+                 <!-- Organizer Card: Minsu Jang -->
+                <div class="card text-center p-6 max-w-sm w-full">
+                    <img src="./minsujang_2022.png" alt="Minsu Jang" class="w-32 h-32 rounded-full mx-auto mb-4 border-4 border-white shadow-md">
+                    <h3 class="text-xl font-bold">Minsu Jang (Co-Chair)</h3>
+                    <p class="text-gray-500 mb-2">ETRI / UST, South Korea</p>
+                    <p class="text-sm text-gray-600">Specializes in adaptive and open-world intelligence for social and service robots.</p>
+                </div>
+                <!-- Organizer Card: Ho Seok Ahn -->
+                <div class="card text-center p-6 max-w-sm w-full">
+                    <img src="./hoseok.png" alt="Ho Seok Ahn" class="w-32 h-32 rounded-full mx-auto mb-4 border-4 border-white shadow-md">
+                    <h3 class="text-xl font-bold">Ho Seok Ahn (Co-Chair)</h3>
+                    <p class="text-gray-500 mb-2">University of Auckland, New Zealand</p>
+                    <p class="text-sm text-gray-600">Research interests include social robots, cultural robots, HRI, and affective computing.</p>
+                </div>
+                <!-- Organizer Card: Ross Mead -->
+                <div class="card text-center p-6 max-w-sm w-full">
+                    <img src="./ross_mead.jpg" alt="Ross Mead" class="w-32 h-32 rounded-full mx-auto mb-4 border-4 border-white shadow-md">
+                    <h3 class="text-xl font-bold">Ross Mead</h3>
+                    <p class="text-gray-500 mb-2">Semio, USA</p>
+                    <p class="text-sm text-gray-600">Founder and CEO of Semio AI, defining how people will live, work, and play with robots.</p>
+                </div>
+                <!-- Organizer Card: Yunsung Kim -->
+                <div class="card text-center p-6 max-w-sm w-full">
+                    <img src="./yunsung.png" alt="Yunsung Kim" class="w-32 h-32 rounded-full mx-auto mb-4 border-4 border-white shadow-md">
+                    <h3 class="text-xl font-bold">Yunsung Kim</h3>
+                    <p class="text-gray-500 mb-2">LG Electronics, South Korea</p>
+                    <p class="text-sm text-gray-600">Principal researcher focusing on robot platform architecture and SDKs based on ROS 2.</p>
+                </div>
+                <!-- Organizer Card: Sonya Kwak -->
+                <div class="card text-center p-6 max-w-sm w-full">
+                    <img src="./sonya.png" alt="Sonya Kwak" class="w-32 h-32 rounded-full mx-auto mb-4 border-4 border-white shadow-md">
+                    <h3 class="text-xl font-bold">Sonya Kwak</h3>
+                    <p class="text-gray-500 mb-2">KIST, South Korea</p>
+                    <p class="text-sm text-gray-600">Senior Research Scientist focusing on HRI design of social robots and robotic products.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Outcomes Section -->
+        <section id="outcomes" class="bg-white rounded-xl shadow-lg p-12">
+            <div class="grid md:grid-cols-2 gap-8 items-center">
+                <div>
+                    <h2 class="section-title text-3xl font-bold text-gray-800 mb-4 text-center">Expected Outcomes</h2>
+                    <p class="text-lg text-gray-600 mb-6 mt-12 text-center md:text-left">This workshop aims to produce tangible results that will benefit the entire social robotics community.</p>
+                    <ul class="space-y-4">
+                        <li class="flex items-start">
+                            <svg class="w-6 h-6 text-green-500 mr-3 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                            <div>
+                                <h4 class="font-semibold text-lg">Workshop Homepage</h4>
+                                <p class="text-gray-600">A dedicated site with presentation slides and summaries.</p>
+                            </div>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-6 h-6 text-green-500 mr-3 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                            <div>
+                                <h4 class="font-semibold text-lg">Consolidated "Wish List"</h4>
+                                <p class="text-gray-600">A public report summarizing key discussions and a feature wish list for future social robots.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="hidden md:block">
+                    <img src="https://placehold.co/500x350/e0e7ff/4338ca?text=Innovation+Roadmap" class="rounded-lg shadow-md" alt="Innovation Roadmap">
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white mt-16">
+        <div class="container mx-auto px-6 py-8 text-center">
+            <p>&copy; 2025 Social Robots Unboxed Workshop Organizers.</p>
+            <p class="text-sm text-gray-400 mt-2">Part of the ICSR+AI 2025 Conference.</p>
+        </div>
+    </footer>
+
+    <script>
+        // JavaScript for mobile menu toggle
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Close mobile menu when a link is clicked
+        const mobileMenuLinks = mobileMenu.getElementsByTagName('a');
+        for (let link of mobileMenuLinks) {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+            });
+        }
+    </script>
+
+</body>
+</html>

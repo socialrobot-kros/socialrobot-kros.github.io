@@ -34,16 +34,15 @@
             transform: translateX(-50%);
         }
         .section-subtitle {
-            @apply text-lg text-gray-500 mb-12 text-center max-w-3xl mx-auto;
+            @apply text-lg text-gray-500 mb-16 text-center max-w-3xl mx-auto;
         }
         .card {
-            @apply bg-white rounded-xl shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105;
+            @apply bg-white rounded-xl shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105 flex flex-col;
         }
     </style>
 </head>
 <body class="bg-gray-50">
 
-    <!-- Header & Navigation -->
     <header class="bg-white shadow-md sticky top-0 z-50">
         <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
             <a href="#" class="text-2xl font-bold text-gray-800">
@@ -61,7 +60,6 @@
                  <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
             </button>
         </nav>
-        <!-- Mobile Menu -->
         <div id="mobile-menu" class="hidden md:hidden">
             <a href="#about" class="block py-2 px-4 text-sm hover:bg-gray-100">About</a>
             <a href="#topics" class="block py-2 px-4 text-sm hover:bg-gray-100">Topics</a>
@@ -72,7 +70,6 @@
         </div>
     </header>
 
-    <!-- Hero Section -->
     <section class="relative text-white py-24 sm:py-32 px-6">
         <div class="absolute inset-0 hero-gradient"></div>
         <div class="absolute inset-0 bg-cover bg-center opacity-10" style="background-image: url('https://placehold.co/1920x1080/e0e0e0/e0e0e0?text=')"></div>
@@ -85,7 +82,6 @@
 
     <main class="container mx-auto px-6 py-16">
 
-        <!-- About Section -->
         <section id="about" class="mb-24">
             <h2 class="section-title text-3xl font-bold text-gray-800 mb-2 text-center">About the Workshop</h2>
             <p class="section-subtitle">Bridging the gap between technical capabilities and user expectations in social robotics.</p>
@@ -106,7 +102,6 @@
             </div>
         </section>
 
-        <!-- Topics Section -->
         <section id="topics" class="mb-24">
             <h2 class="section-title text-3xl font-bold text-gray-800 mb-2 text-center">Key Topics</h2>
             <p class="section-subtitle">Our discussions will revolve around the critical challenges and opportunities in social robotics.</p>
@@ -138,40 +133,34 @@
             </div>
         </section>
 
-        <!-- Speakers Section -->
         <section id="speakers" class="mb-24">
             <h2 class="section-title text-3xl font-bold text-gray-800 mb-2 text-center">Invited Speakers</h2>
             <p class="section-subtitle">Hear from leading experts at the forefront of social robotics research and industry.</p>
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <!-- Speaker Card -->
                 <div class="card text-center p-6">
                     <img src="./RossMead-Square_2024-05-18.jpg" alt="Ross Mead" class="w-32 h-32 rounded-full mx-auto mb-4 border-4 border-white shadow-md">
                     <h3 class="text-xl font-bold">Ross Mead, PhD</h3>
                     <p class="text-gray-500 mb-2">CEO, Semio</p>
                     <p class="text-sm text-gray-600">Founder and CEO of Semio AI, defining how people will live, work, and play with robots.</p>
                 </div>
-                <!-- Speaker Card -->
                 <div class="card text-center p-6">
                     <img src="./yunsung.png" alt="Yunsung Kim" class="w-32 h-32 rounded-full mx-auto mb-4 border-4 border-white shadow-md">
                     <h3 class="text-xl font-bold">Yunsung Kim</h3>
                     <p class="text-gray-500 mb-2">Principal Researcher, LG Electronics</p>
                     <p class="text-sm text-gray-600">Engaged in designing robot platform architecture and SDKs based on ROS 2 for devices like the LG Q9.</p>
                 </div>
-                <!-- Speaker Card -->
                 <div class="card text-center p-6">
                     <img src="./kyungman.png" alt="Kyungman Yoo" class="w-32 h-32 rounded-full mx-auto mb-4 border-4 border-white shadow-md">
                     <h3 class="text-xl font-bold">Kyungman Yoo</h3>
                     <p class="text-gray-500 mb-2">Principal Researcher, LG Electronics</p>
                     <p class="text-sm text-gray-600">Co-developer of the LG AI Companion Device (Q9) platform and SDKs.</p>
                 </div>
-                 <!-- Speaker Card -->
-                <div class="card text-center p-6">
+                 <div class="card text-center p-6">
                     <img src="./sonya.png" alt="Sonya Kwak" class="w-32 h-32 rounded-full mx-auto mb-4 border-4 border-white shadow-md">
                     <h3 class="text-xl font-bold">Sonya Kwak, PhD</h3>
                     <p class="text-gray-500 mb-2">Senior Research Scientist, KIST</p>
                     <p class="text-sm text-gray-600">Focuses on HRI design of social robots and robotic products, co-creator of CollaBot.</p>
                 </div>
-                <!-- Speaker Card: Franziska Kirstein -->
                 <div class="card text-center p-6">
                     <img src="./franziska.png" alt="Franziska Kirstein" class="w-32 h-32 rounded-full mx-auto mb-4 border-4 border-white shadow-md">
                     <h3 class="text-xl font-bold">Franziska Kirstein</h3>
@@ -181,48 +170,113 @@
             </div>
         </section>
         
-        <!-- Program Section -->
         <section id="program" class="mb-24">
             <h2 class="section-title text-3xl font-bold text-gray-800 mb-2 text-center">Program</h2>
-            <div class="text-center mt-12">
-                 <p class="text-xl italic text-gray-600">To be announced</p>
+            <br/>
+            <div class="mb-20">
+                <h3 class="text-2xl font-bold text-center text-gray-700 mb-8">Invited Talk Session</h3>
+                <div class="grid md:grid-cols-1 lg:grid-cols-3 gap-8">
+                    <div class="card p-8">
+                        <div class="flex-grow">
+                            <h4 class="font-bold text-xl mb-1">Ross Mead, PhD</h4>
+                            <p class="text-gray-500 mb-4">CEO, Semio</p>
+                            <h5 class="font-semibold text-lg italic text-gray-800 mb-3">Bringing Robots To Life: Building Blocks of Social Interaction</h5>
+                            <p class="text-gray-600">In this talk, Dr. Ross Mead will introduce categories of social behaviors that serve as building blocks for face-to-face social interactions, and how these behaviors can be computationally modeled for autonomous social robots.</p>
+                            <p class="text-gray-600"><br/><center><img src="./quori.png" width="80%">Video: <a href="https://youtu.be/5ccrm4U4AvA">https://youtu.be/5ccrm4U4AvA</a></center></p>
+                        </div>
+                    </div>
+
+                    <div class="card p-8">
+                        <div class="flex-grow">
+                             <h4 class="font-bold text-xl mb-1">Sonya Kwak, PhD</h4>
+                            <p class="text-gray-500 mb-4">Senior Research Scientist, KIST</p>
+                            <h5 class="font-semibold text-lg italic text-gray-800 mb-3">Talk Title to Be Announced</h5>
+                            <p class="text-gray-600">The abstract for this talk will be available soon.</p>
+                        </div>
+                    </div>
+
+                    <div class="card p-8">
+                         <div class="flex-grow">
+                            <h4 class="font-bold text-xl mb-1">Franziska Kirstein</h4>
+                            <p class="text-gray-500 mb-4">Research And Development Specialist, Blue Ocean Robotics</p>
+                            <h5 class="font-semibold text-lg italic text-gray-800 mb-3">Talk Title to Be Announced</h5>
+                            <p class="text-gray-600">The abstract for this talk will be available soon.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-12">
+                <h3 class="text-2xl font-bold text-center text-gray-700 mb-2">In-depth Social Robot Demonstration Session</h3>
+                <h4 class="text-xl font-semibold text-center text-gray-600 mb-8">LG Electronics Q9 Robot</h4>
+                
+                <div class="max-w-4xl mx-auto bg-white p-8 rounded-xl shadow-lg mb-12 border border-gray-200">
+                    <h5 class="text-lg font-bold text-blue-800 mb-3">Robot Software Platform, Development Ecosystem, and SDK Use Cases of LG Electronics’ AI Companion Device (Q9)</h5>
+                    <div class="text-gray-700 space-y-4">
+                        <p>At CES, IFA, and ROSCon 2024, LG Electronics unveiled its AI Companion Device (Q9) as part of its vision to enhance the value of life through the liberation from household labor—“Zero Labor Home, Makes Quality Time.” Q9 is designed as an open platform based on ROS 2, enabling external developers to freely integrate their own software functionalities into the device via standardized interfaces.</p>
+                        <p>This session is composed of three presentations, focusing on practical methods and real-world examples of how social robotics developers can extend and apply functionalities using the Q9 platform.</p>
+                    </div>
+                </div>
+                
+                <div class="grid md:grid-cols-1 lg:grid-cols-3 gap-8">
+                    <div class="card p-8">
+                        <div class="flex-grow">
+                            <p class="font-semibold text-blue-600 mb-2">Presentation 1</p>
+                            <h4 class="font-bold text-xl mb-3">Q9 Architecture and Development Ecosystem</h4>
+                            <p class="text-gray-600">Q9 is a ROS 2-based open platform optimized for stable operation even on low-spec hardware. This session introduces the structure of the Q9 robot software platform, along with the SDK and development ecosystem that allow external developers to integrate their own software modules into the Q9 device.</p>
+                        </div>
+                        <p class="text-sm font-medium text-gray-800 mt-6 pt-4 border-t border-gray-200">Speaker: Yunsung Kim</p>
+                    </div>
+
+                    <div class="card p-8">
+                        <div class="flex-grow">
+                             <p class="font-semibold text-blue-600 mb-2">Presentation 2</p>
+                            <h4 class="font-bold text-xl mb-3">SDK and Developer Site Configuration and Utilization</h4>
+                            <p class="text-gray-600">LG Electronics has released an SDK that supports various ROS 2 APIs. The SDK consists of a toolchain, documentation, open APIs, sample code, tutorials, and a developer site, allowing developers to easily implement their own functionality on the Q9 platform. This session provides a detailed overview of the SDK’s structure, usage process, and how to effectively utilize the developer site.</p>
+                        </div>
+                        <p class="text-sm font-medium text-gray-800 mt-6 pt-4 border-t border-gray-200">Speaker: Kangyoung Lee</p>
+                    </div>
+
+                    <div class="card p-8">
+                         <div class="flex-grow">
+                            <p class="font-semibold text-blue-600 mb-2">Presentation 3</p>
+                            <h4 class="font-bold text-xl mb-3">SDK API Features and Application Use Cases</h4>
+                            <p class="text-gray-600">This session demonstrates how developers can leverage the SDK to add custom software features or applications beyond the device’s built-in capabilities. Since the SDK’s release, LG Electronics has collaborated with various domestic and international institutions to develop new functionalities. Real-world collaboration cases and application development examples will be shared.</p>
+                        </div>
+                        <p class="text-sm font-medium text-gray-800 mt-6 pt-4 border-t border-gray-200">Speaker: Kyungman Yoo</p>
+                    </div>
+                </div>
             </div>
         </section>
 
-        <!-- Organizers Section -->
         <section id="organizers" class="mb-24">
             <h2 class="section-title text-3xl font-bold text-gray-800 mb-2 text-center">Organizers</h2>
             <p class="section-subtitle">Meet the team behind the "Social Robots Unboxed" workshop.</p>
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center">
-                 <!-- Organizer Card: Minsu Jang -->
-                <div class="card text-center p-6 max-w-sm w-full">
+                 <div class="card text-center p-6 max-w-sm w-full">
                     <img src="./minsujang_2022.png" alt="Minsu Jang" class="w-32 h-32 rounded-full mx-auto mb-4 border-4 border-white shadow-md">
                     <h3 class="text-xl font-bold">Minsu Jang (Co-Chair)</h3>
                     <p class="text-gray-500 mb-2">ETRI / UST, South Korea</p>
                     <p class="text-sm text-gray-600">Specializes in adaptive and open-world intelligence for social and service robots.</p>
                 </div>
-                <!-- Organizer Card: Ho Seok Ahn -->
                 <div class="card text-center p-6 max-w-sm w-full">
                     <img src="./hoseok.png" alt="Ho Seok Ahn" class="w-32 h-32 rounded-full mx-auto mb-4 border-4 border-white shadow-md">
                     <h3 class="text-xl font-bold">Ho Seok Ahn (Co-Chair)</h3>
                     <p class="text-gray-500 mb-2">University of Auckland, New Zealand</p>
                     <p class="text-sm text-gray-600">Research interests include social robots, cultural robots, HRI, and affective computing.</p>
                 </div>
-                <!-- Organizer Card: Ross Mead -->
                 <div class="card text-center p-6 max-w-sm w-full">
                     <img src="./RossMead-Square_2024-05-18.jpg" alt="Ross Mead" class="w-32 h-32 rounded-full mx-auto mb-4 border-4 border-white shadow-md">
                     <h3 class="text-xl font-bold">Ross Mead</h3>
                     <p class="text-gray-500 mb-2">Semio, USA</p>
                     <p class="text-sm text-gray-600">Founder and CEO of Semio AI, defining how people will live, work, and play with robots.</p>
                 </div>
-                <!-- Organizer Card: Yunsung Kim -->
                 <div class="card text-center p-6 max-w-sm w-full">
                     <img src="./yunsung.png" alt="Yunsung Kim" class="w-32 h-32 rounded-full mx-auto mb-4 border-4 border-white shadow-md">
                     <h3 class="text-xl font-bold">Yunsung Kim</h3>
                     <p class="text-gray-500 mb-2">LG Electronics, South Korea</p>
                     <p class="text-sm text-gray-600">Principal researcher focusing on robot platform architecture and SDKs based on ROS 2.</p>
                 </div>
-                <!-- Organizer Card: Sonya Kwak -->
                 <div class="card text-center p-6 max-w-sm w-full">
                     <img src="./sonya.png" alt="Sonya Kwak" class="w-32 h-32 rounded-full mx-auto mb-4 border-4 border-white shadow-md">
                     <h3 class="text-xl font-bold">Sonya Kwak</h3>
@@ -232,11 +286,10 @@
             </div>
         </section>
 
-        <!-- Outcomes Section -->
         <section id="outcomes" class="bg-white rounded-xl shadow-lg p-12">
             <div class="grid md:grid-cols-2 gap-8 items-center">
                 <div>
-                    <h2 class="section-title text-3xl font-bold text-gray-800 mb-4 text-center">Expected Outcomes</h2>
+                    <h2 class="section-title text-3xl font-bold text-gray-800 mb-4 text-center md:text-left">Expected Outcomes</h2>
                     <p class="text-lg text-gray-600 mb-6 mt-12 text-center md:text-left">This workshop aims to produce tangible results that will benefit the entire social robotics community.</p>
                     <ul class="space-y-4">
                         <li class="flex items-start">
@@ -263,7 +316,6 @@
 
     </main>
 
-    <!-- Footer -->
     <footer class="bg-gray-800 text-white mt-16">
         <div class="container mx-auto px-6 py-8 text-center">
             <p>&copy; 2025 Social Robots Unboxed Workshop Organizers.</p>

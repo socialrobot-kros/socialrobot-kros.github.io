@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Special Session: Social HRI of Human-care Service Robots | IEEE RO-MAN 2026</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #1a5276;
+            --primary-light: #2980b9;
+            --accent: #e74c3c;
+            --bg-light: #f8f9fa;
+            --bg-section: #ffffff;
+            --text-dark: #2c3e50;
+            --text-muted: #6c757d;
+            --border: #e9ecef;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            line-height: 1.7;
+            color: var(--text-dark);
+            background: var(--bg-light);
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+            color: white;
+            padding: 80px 20px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.05'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 1;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .conference-badge {
+            display: inline-block;
+            background: rgba(255,255,255,0.2);
+            padding: 8px 20px;
+            border-radius: 50px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            margin-bottom: 24px;
+            backdrop-filter: blur(10px);
+        }
+
+        .hero h1 {
+            font-family: 'Playfair Display', Georgia, serif;
+            font-size: clamp(2rem, 5vw, 3rem);
+            font-weight: 700;
+            margin-bottom: 16px;
+            line-height: 1.2;
+        }
+
+        .hero .subtitle {
+            font-size: 1.1rem;
+            opacity: 0.9;
+            max-width: 700px;
+            margin: 0 auto 30px;
+        }
+
+        .hero-meta {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 24px;
+            font-size: 0.95rem;
+        }
+
+        .hero-meta span {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        /* Container */
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Sections */
+        section {
+            padding: 60px 0;
+        }
+
+        .section-title {
+            font-family: 'Playfair Display', Georgia, serif;
+            font-size: 1.8rem;
+            color: var(--primary);
+            margin-bottom: 24px;
+            position: relative;
+            padding-bottom: 12px;
+        }
+
+        .section-title::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 60px;
+            height: 3px;
+            background: var(--accent);
+            border-radius: 2px;
+        }
+
+        /* Aims Section */
+        .aims {
+            background: white;
+        }
+
+        .aims-content {
+            font-size: 1.05rem;
+            color: var(--text-dark);
+        }
+
+        .focus-areas {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .focus-card {
+            background: var(--bg-light);
+            padding: 24px;
+            border-radius: 12px;
+            border-left: 4px solid var(--primary-light);
+        }
+
+        .focus-card h4 {
+            color: var(--primary);
+            margin-bottom: 8px;
+            font-weight: 600;
+        }
+
+        .focus-card p {
+            font-size: 0.95rem;
+            color: var(--text-muted);
+        }
+
+        /* Topics Section */
+        .topics {
+            background: var(--bg-light);
+        }
+
+        .topics-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 12px;
+        }
+
+        .topic-item {
+            background: white;
+            padding: 16px 20px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 0.95rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.04);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .topic-item:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+        }
+
+        .topic-item::before {
+            content: '●';
+            color: var(--primary-light);
+            font-size: 0.6rem;
+        }
+
+        /* Speakers Section */
+        .speakers {
+            background: white;
+        }
+
+        .speaker-list {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        .speaker-item {
+            background: var(--bg-light);
+            padding: 20px 24px;
+            border-radius: 10px;
+            display: grid;
+            grid-template-columns: 1fr auto;
+            gap: 16px;
+            align-items: center;
+        }
+
+        .speaker-info h4 {
+            font-weight: 600;
+            color: var(--text-dark);
+            margin-bottom: 4px;
+        }
+
+        .speaker-info .affiliation {
+            font-size: 0.9rem;
+            color: var(--text-muted);
+        }
+
+        .speaker-talk {
+            font-size: 0.95rem;
+            color: var(--primary);
+            font-style: italic;
+            text-align: right;
+        }
+
+        @media (max-width: 600px) {
+            .speaker-item {
+                grid-template-columns: 1fr;
+            }
+            .speaker-talk {
+                text-align: left;
+            }
+        }
+
+        /* Organizers Section */
+        .organizers {
+            background: var(--bg-light);
+        }
+
+        .organizers-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            gap: 24px;
+        }
+
+        .organizer-card {
+            background: white;
+            border-radius: 12px;
+            padding: 28px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+        }
+
+        .organizer-card.chair {
+            border: 2px solid var(--primary-light);
+        }
+
+        .organizer-header {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            margin-bottom: 16px;
+        }
+
+        .organizer-avatar {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: 600;
+            font-size: 1.2rem;
+        }
+
+        .organizer-name h4 {
+            font-weight: 600;
+            color: var(--text-dark);
+        }
+
+        .organizer-name .role {
+            font-size: 0.85rem;
+            color: var(--accent);
+            font-weight: 500;
+        }
+
+        .organizer-name .affiliation {
+            font-size: 0.9rem;
+            color: var(--text-muted);
+        }
+
+        .organizer-bio {
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            line-height: 1.6;
+        }
+
+        .organizer-contact {
+            margin-top: 12px;
+            font-size: 0.85rem;
+        }
+
+        .organizer-contact a {
+            color: var(--primary-light);
+            text-decoration: none;
+        }
+
+        .organizer-contact a:hover {
+            text-decoration: underline;
+        }
+
+        /* Support Section */
+        .support {
+            background: white;
+            text-align: center;
+        }
+
+        .support-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 16px;
+            background: var(--bg-light);
+            padding: 20px 40px;
+            border-radius: 12px;
+            margin-top: 20px;
+        }
+
+        .support-badge img {
+            height: 60px;
+        }
+
+        .support-text {
+            text-align: left;
+        }
+
+        .support-text strong {
+            display: block;
+            color: var(--primary);
+        }
+
+        /* Submission Section */
+        .submission {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+            color: white;
+            text-align: center;
+        }
+
+        .submission .section-title {
+            color: white;
+        }
+
+        .submission .section-title::after {
+            background: rgba(255,255,255,0.5);
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .submission p {
+            max-width: 600px;
+            margin: 0 auto 24px;
+            opacity: 0.95;
+        }
+
+        .btn-submit {
+            display: inline-block;
+            background: white;
+            color: var(--primary);
+            padding: 14px 36px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .btn-submit:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+        }
+
+        /* Footer */
+        footer {
+            background: var(--text-dark);
+            color: rgba(255,255,255,0.7);
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        footer a {
+            color: rgba(255,255,255,0.9);
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero {
+                padding: 60px 20px;
+            }
+
+            section {
+                padding: 40px 0;
+            }
+
+            .organizers-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <div class="conference-badge"><a href="https://ro-man2026.org" target="_blank" style="color: inherit; text-decoration: none;">IEEE RO-MAN 2026</a> Special Session</div>
+            <h1>Social Human-Robot Interaction of Human-care Service Robots</h1>
+            <p class="subtitle">Exploring how social robots can interact with humans socially and facilitate the integration of service robots into everyday life</p>
+            <div class="hero-meta">
+                <span>
+                    <svg width="18" height="18" fill="currentColor" viewBox="0 0 16 16"><path d="M11 6.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm-3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm-5 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1z"/><path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/></svg>
+                    August 24-28, 2026
+                </span>
+                <a href="https://ro-man2026.org" target="_blank" style="color: inherit; text-decoration: none; display: flex; align-items: center; gap: 8px;">
+                    <svg width="18" height="18" fill="currentColor" viewBox="0 0 16 16"><path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/></svg>
+                    Kitakyushu, Fukuoka, Japan
+                </a>
+                <span>
+                    <svg width="18" height="18" fill="currentColor" viewBox="0 0 16 16"><path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zM2.04 4.326c.325 1.329 2.532 2.54 3.717 3.19.48.263.793.434.743.484-.08.08-.162.158-.242.234-.416.396-.787.749-.758 1.266.035.634.618.824 1.214 1.017.577.188 1.168.38 1.286.983.082.417-.075.988-.22 1.52-.215.782-.406 1.48.22 1.48 1.5-.5 3.798-3.186 4-5 .138-1.243-2-2-3.5-2.5-.478-.16-.755.081-.99.284-.172.15-.322.279-.51.216-.445-.148-2.5-2-1.5-2.5.78-.39.952-.171 1.227.182.078.099.163.208.273.318.609.304.662-.132.723-.633.039-.322.081-.671.277-.867.434-.434 1.265-.791 2.028-1.12.712-.306 1.365-.587 1.579-.88A7 7 0 1 1 2.04 4.327z"/></svg>
+                    Supported by KROS
+                </span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Aims Section -->
+    <section class="aims">
+        <div class="container">
+            <h2 class="section-title">Aims & Scope</h2>
+            <div class="aims-content">
+                <p>Service robots with social intelligence are starting to be integrated into our everyday lives. The robots are intended to help improve aspects of quality of life as well as improve efficiency.</p>
+                <p style="margin-top: 16px;">We are organizing an exciting special session at RO-MAN 2026 oriented towards sharing ideas amongst participants with diverse backgrounds ranging from Human-Robot Interaction design, social intelligence, decision making, social psychology, and robotic social skills.</p>
+
+                <div class="focus-areas">
+                    <div class="focus-card">
+                        <h4>Technical Implementation</h4>
+                        <p>Social robots and robotic products development, system architecture, and practical deployment</p>
+                    </div>
+                    <div class="focus-card">
+                        <h4>Form, Function & Behavior</h4>
+                        <p>Robot design, interaction modalities, and behavioral patterns for effective social engagement</p>
+                    </div>
+                    <div class="focus-card">
+                        <h4>Human Behavior & Expectations</h4>
+                        <p>Understanding social aspects of human-robot interaction and user acceptance</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Topics Section -->
+    <section class="topics">
+        <div class="container">
+            <h2 class="section-title">Topics of Interest</h2>
+            <p style="margin-bottom: 24px;">Papers are solicited on all areas directly related to these topics, including but not limited to:</p>
+            <div class="topics-grid">
+                <div class="topic-item">Social perception and context awareness</div>
+                <div class="topic-item">Short/long-term behavior recognition</div>
+                <div class="topic-item">Social expression and interactive behavior</div>
+                <div class="topic-item">Social task modelling and management</div>
+                <div class="topic-item">Social grasping and navigation skills</div>
+                <div class="topic-item">Social humanoid robot design</div>
+                <div class="topic-item">Robotic product design</div>
+                <div class="topic-item">Human-robot interaction design</div>
+                <div class="topic-item">Emotion recognition and model design</div>
+                <div class="topic-item">Dialogue based interaction</div>
+                <div class="topic-item">User evaluation</div>
+                <div class="topic-item">Applications: healthcare, receptionist, education</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tentative Papers Section -->
+    <section class="speakers">
+        <div class="container">
+            <h2 class="section-title">Tentative Papers to be Submitted</h2>
+            <p style="margin-bottom: 24px; color: var(--text-muted);">The following researchers have expressed their intention to submit papers to this special session:</p>
+            <div class="speaker-list">
+                <div class="speaker-item">
+                    <div class="speaker-info">
+                        <h4>Waki Kamino</h4>
+                        <span class="affiliation">Cornell University, USA</span>
+                    </div>
+                    <div class="speaker-talk">"Robots in Public Service Contexts – a Case Study from Japan"</div>
+                </div>
+                <div class="speaker-item">
+                    <div class="speaker-info">
+                        <h4>Jaeyoon Jang &amp; Hosub Yoon</h4>
+                        <span class="affiliation">ETRI, Republic of Korea</span>
+                    </div>
+                    <div class="speaker-talk">"Dynamic Keyframe Sampling for Efficient Vision-Language Anomaly Detection in Real-Time Robotic Surveillance"</div>
+                </div>
+                <div class="speaker-item">
+                    <div class="speaker-info">
+                        <h4>Chanil Park</h4>
+                        <span class="affiliation">KIRO, Republic of Korea</span>
+                    </div>
+                    <div class="speaker-talk">"Vision Language Model-based Human Behavior Analysis in Public Space"</div>
+                </div>
+                <div class="speaker-item">
+                    <div class="speaker-info">
+                        <h4>Chaeyoon Kim, Changhee Seo, Doik Kim &amp; Sonya S. Kwak</h4>
+                        <span class="affiliation">KIST, Republic of Korea</span>
+                    </div>
+                    <div class="speaker-talk">"From Literal to Intentional: Robot Intention Understanding Strategies"</div>
+                </div>
+                <div class="speaker-item">
+                    <div class="speaker-info">
+                        <h4>Edmond Liu</h4>
+                        <span class="affiliation">University of Auckland, New Zealand</span>
+                    </div>
+                    <div class="speaker-talk">"Maori Sign Language Understanding"</div>
+                </div>
+                <div class="speaker-item">
+                    <div class="speaker-info">
+                        <h4>Xin Sheng</h4>
+                        <span class="affiliation">University of Tsukuba, Japan</span>
+                    </div>
+                    <div class="speaker-talk">"Effects of AI Assistant Embodiment and Hallucination Type on Users' Trust"</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Organizers Section -->
+    <section class="organizers">
+        <div class="container">
+            <h2 class="section-title">Organizing Committee</h2>
+            <div class="organizers-grid">
+                <div class="organizer-card chair">
+                    <div class="organizer-header">
+                        <div class="organizer-avatar">MG</div>
+                        <div class="organizer-name">
+                            <h4>Dr. Min-Gyu Kim</h4>
+                            <span class="role">Chair</span>
+                            <span class="affiliation">KIRO, South Korea</span>
+                        </div>
+                    </div>
+                    <p class="organizer-bio">Head of the Human-Robot Interaction Research Center at KIRO. Research focuses on user-centered engineering, system and user modeling in HRI, and human factors in social robotics.</p>
+                                    </div>
+
+                <div class="organizer-card chair">
+                    <div class="organizer-header">
+                        <div class="organizer-avatar">MJ</div>
+                        <div class="organizer-name">
+                            <h4>Dr. Minsu Jang</h4>
+                            <span class="role">Co-Chair</span>
+                            <span class="affiliation">ETRI, South Korea</span>
+                        </div>
+                    </div>
+                    <p class="organizer-bio">Principal Researcher at ETRI and Professor at UST. Specializes in adaptive and open-world intelligence for social and service robots.</p>
+                                    </div>
+
+                <div class="organizer-card">
+                    <div class="organizer-header">
+                        <div class="organizer-avatar">HA</div>
+                        <div class="organizer-name">
+                            <h4>Prof. Ho Seok Ahn</h4>
+                            <span class="role">Co-Chair</span>
+                            <span class="affiliation">University of Auckland, New Zealand</span>
+                        </div>
+                    </div>
+                    <p class="organizer-bio">Senior Lecturer at University of Auckland. Research interests include social robots, cultural robots, HRI, affective computing, and healthcare robots. Chair of IEEE NZ Robotics and Automation Chapter.</p>
+                                    </div>
+
+                <div class="organizer-card">
+                    <div class="organizer-header">
+                        <div class="organizer-avatar">SK</div>
+                        <div class="organizer-name">
+                            <h4>Prof. SunKyoung Kim</h4>
+                            <span class="role">Co-Chair</span>
+                            <span class="affiliation">University of Tsukuba, Japan</span>
+                        </div>
+                    </div>
+                    <p class="organizer-bio">Assistant Professor at University of Tsukuba. Research focuses on cognitive and affective factors of HRI through human-centered design and behavioral analysis.</p>
+                                    </div>
+
+                <div class="organizer-card">
+                    <div class="organizer-header">
+                        <div class="organizer-avatar">BK</div>
+                        <div class="organizer-name">
+                            <h4>Prof. Boyoung Kim</h4>
+                            <span class="role">Co-Chair</span>
+                            <span class="affiliation">George Mason University Korea</span>
+                        </div>
+                    </div>
+                    <p class="organizer-bio">Research Professor at Center for Security Policy Studies–Korea. Studies how social robots can promote moral behavior and inform trustworthy AI policies.</p>
+                                    </div>
+
+                <div class="organizer-card">
+                    <div class="organizer-header">
+                        <div class="organizer-avatar">YL</div>
+                        <div class="organizer-name">
+                            <h4>Dr. Yoon Kyung Lee</h4>
+                            <span class="role">Co-Chair</span>
+                            <span class="affiliation">Seoul National University, South Korea</span>
+                        </div>
+                    </div>
+                    <p class="organizer-bio">Researcher at Visual Arts Institute, SNU. Ph.D. in Cognitive Psychology. Research focuses on empathic AI, human-agent interaction, and alignment with human values using LLMs.</p>
+                                    </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Support Section -->
+    <section class="support">
+        <div class="container">
+            <h2 class="section-title" style="text-align: center;">
+                <span style="display: inline-block; position: relative;">Supported By
+                    <span style="position: absolute; bottom: -12px; left: 50%; transform: translateX(-50%); width: 60px; height: 3px; background: #e74c3c; border-radius: 2px;"></span>
+                </span>
+            </h2>
+            <div class="support-badge">
+                <img src="/assets/images/kros_logo.png" alt="KROS Logo" onerror="this.style.display='none'">
+                <div class="support-text">
+                    <strong>Korea Robotics Society (KROS)</strong>
+                    Technical Sponsor of RO-MAN 2026
+                </div>
+            </div>
+            <p style="margin-top: 24px; color: var(--text-muted); font-size: 0.95rem;">This special session is organized by the Special Interest Group on Social Robots of KROS, which has been organizing special sessions and workshops at RO-MAN and other major conferences for over a decade.</p>
+        </div>
+    </section>
+
+    <!-- Submission Section -->
+    <section class="submission">
+        <div class="container">
+            <h2 class="section-title" style="text-align: center;">Submit Your Paper</h2>
+            <p>Authors should prepare their papers based on the IEEE template. All papers must be written in English and submitted electronically in A4 PDF format.</p>
+            <a href="https://ro-man2026.org/papersubmission/" class="btn-submit" target="_blank">RO-MAN 2026 Submission</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p><strong>Special Session: Social Human-Robot Interaction of Human-care Service Robots</strong></p>
+            <p style="margin-top: 8px;">IEEE RO-MAN 2026 | August 24-28, 2026 | Kitakyushu, Fukuoka, Japan</p>
+            <p style="margin-top: 16px;">
+                <a href="https://socialrobot-kros.github.io">KROS Social Robot SIG</a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>

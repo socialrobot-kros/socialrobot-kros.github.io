@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>소셜로봇의 재도약을 향하여! | 소셜로봇연구회 워크샵 @KRoC 2026</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #37474f;
+            --primary-light: #546e7a;
+            --accent: #ff6d00;
+            --accent-light: #ff9100;
+            --bg-light: #f8f9fa;
+            --bg-section: #ffffff;
+            --text-dark: #263238;
+            --text-muted: #6c757d;
+            --border: #e9ecef;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Noto Sans KR', -apple-system, BlinkMacSystemFont, sans-serif;
+            line-height: 1.8;
+            color: var(--text-dark);
+            background: var(--bg-light);
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 50%, #455a64 100%);
+            color: white;
+            padding: 80px 20px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url("data:image/svg+xml,%3Csvg width='80' height='80' viewBox='0 0 80 80' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.04'%3E%3Cpath d='M50 50c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10c0 5.523-4.477 10-10 10s-10-4.477-10-10 4.477-10 10-10zM10 10c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10c0 5.523-4.477 10-10 10S0 25.523 0 20s4.477-10 10-10z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 1;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .conference-badge {
+            display: inline-block;
+            background: rgba(255, 109, 0, 0.3);
+            padding: 8px 24px;
+            border-radius: 50px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            margin-bottom: 24px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 109, 0, 0.4);
+        }
+
+        .conference-badge a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        .hero h1 {
+            font-size: clamp(2rem, 5vw, 3rem);
+            font-weight: 700;
+            margin-bottom: 12px;
+            line-height: 1.3;
+        }
+
+        .hero .subtitle {
+            font-size: 1.05rem;
+            opacity: 0.9;
+            max-width: 700px;
+            margin: 0 auto 30px;
+            line-height: 1.8;
+        }
+
+        .hero-meta {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 24px;
+            font-size: 0.95rem;
+        }
+
+        .hero-meta span {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        /* Container */
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Sections */
+        section {
+            padding: 60px 0;
+        }
+
+        .section-title {
+            font-size: 1.6rem;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 24px;
+            position: relative;
+            padding-bottom: 12px;
+        }
+
+        .section-title::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 50px;
+            height: 3px;
+            background: var(--accent);
+            border-radius: 2px;
+        }
+
+        /* Navigation Bar */
+        .navbar {
+            background: white;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .navbar .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 20px;
+        }
+
+        .navbar-brand {
+            font-weight: 600;
+            color: var(--primary);
+            text-decoration: none;
+            font-size: 0.9rem;
+            padding: 16px 0;
+        }
+
+        .navbar-nav {
+            display: flex;
+            list-style: none;
+            gap: 4px;
+            flex-wrap: wrap;
+        }
+
+        .navbar-nav a {
+            display: block;
+            padding: 16px 12px;
+            color: var(--text-dark);
+            text-decoration: none;
+            font-size: 0.88rem;
+            font-weight: 500;
+            transition: color 0.2s, background 0.2s;
+            border-radius: 4px;
+        }
+
+        .navbar-nav a:hover {
+            color: var(--accent);
+            background: var(--bg-light);
+        }
+
+        .navbar-toggle {
+            display: none;
+            background: none;
+            border: none;
+            padding: 8px;
+            cursor: pointer;
+        }
+
+        .navbar-toggle svg {
+            width: 24px;
+            height: 24px;
+            fill: var(--text-dark);
+        }
+
+        /* Overview Section */
+        .overview {
+            background: white;
+        }
+
+        .overview-content {
+            font-size: 1.02rem;
+            color: var(--text-dark);
+            line-height: 2;
+        }
+
+        .overview-content p + p {
+            margin-top: 16px;
+        }
+
+        .keyword-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 16px;
+            margin-top: 30px;
+        }
+
+        .keyword-card {
+            background: var(--bg-light);
+            padding: 20px;
+            border-radius: 10px;
+            border-left: 4px solid var(--accent);
+            transition: transform 0.2s;
+        }
+
+        .keyword-card:hover {
+            transform: translateY(-2px);
+        }
+
+        .keyword-card h4 {
+            color: var(--primary);
+            margin-bottom: 6px;
+            font-weight: 600;
+            font-size: 0.95rem;
+        }
+
+        .keyword-card p {
+            font-size: 0.88rem;
+            color: var(--text-muted);
+        }
+
+        /* Program Section */
+        .program {
+            background: var(--bg-light);
+        }
+
+        .program-timeline {
+            display: flex;
+            flex-direction: column;
+            gap: 0;
+        }
+
+        .program-item {
+            display: grid;
+            grid-template-columns: 120px 1fr;
+            gap: 20px;
+            padding: 20px 0;
+            border-bottom: 1px solid var(--border);
+            align-items: start;
+        }
+
+        .program-item:last-child {
+            border-bottom: none;
+        }
+
+        .program-time {
+            font-weight: 600;
+            color: var(--accent);
+            font-size: 0.95rem;
+            padding-top: 2px;
+        }
+
+        .program-detail h4 {
+            font-weight: 600;
+            color: var(--text-dark);
+            margin-bottom: 4px;
+            font-size: 1rem;
+        }
+
+        .program-detail .speaker-name {
+            font-size: 0.9rem;
+            color: var(--primary-light);
+            font-weight: 500;
+        }
+
+        .program-detail .speaker-affiliation {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+        }
+
+        .program-item.discussion {
+            background: rgba(255, 109, 0, 0.06);
+            border-radius: 10px;
+            padding: 20px;
+            margin-top: 8px;
+            border-bottom: none;
+        }
+
+        .program-item.opening {
+            background: rgba(55, 71, 79, 0.05);
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 8px;
+            border-bottom: none;
+        }
+
+        /* Speakers Section */
+        .speakers {
+            background: white;
+        }
+
+        .speaker-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .speaker-card {
+            background: var(--bg-light);
+            border-radius: 12px;
+            padding: 24px;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .speaker-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+        }
+
+        .speaker-card .number {
+            display: inline-block;
+            background: var(--accent);
+            color: white;
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 28px;
+            font-size: 0.8rem;
+            font-weight: 700;
+            margin-bottom: 12px;
+        }
+
+        .speaker-card h4 {
+            font-weight: 600;
+            color: var(--text-dark);
+            margin-bottom: 4px;
+        }
+
+        .speaker-card .role {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            margin-bottom: 10px;
+        }
+
+        .speaker-card .talk-title {
+            font-size: 0.92rem;
+            color: var(--primary);
+            font-weight: 500;
+            line-height: 1.6;
+        }
+
+        /* Organizers Section */
+        .organizers {
+            background: var(--bg-light);
+        }
+
+        .organizers-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 20px;
+        }
+
+        .organizer-card {
+            background: white;
+            border-radius: 12px;
+            padding: 24px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+
+        .organizer-card.chair {
+            border: 2px solid var(--accent);
+        }
+
+        .organizer-avatar {
+            width: 56px;
+            height: 56px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: 600;
+            font-size: 1rem;
+            flex-shrink: 0;
+        }
+
+        .organizer-info h4 {
+            font-weight: 600;
+            color: var(--text-dark);
+            font-size: 0.95rem;
+        }
+
+        .organizer-info .role-badge {
+            display: inline-block;
+            font-size: 0.75rem;
+            color: var(--accent);
+            font-weight: 600;
+            margin-bottom: 2px;
+        }
+
+        .organizer-info .affiliation {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+        }
+
+        /* Support Section */
+        .support {
+            background: white;
+            text-align: center;
+        }
+
+        .support-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 16px;
+            background: var(--bg-light);
+            padding: 20px 40px;
+            border-radius: 12px;
+            margin-top: 20px;
+        }
+
+        .support-badge img {
+            height: 50px;
+        }
+
+        .support-text {
+            text-align: left;
+        }
+
+        .support-text strong {
+            display: block;
+            color: var(--primary);
+        }
+
+        /* Contact Section */
+        .contact {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+            color: white;
+            text-align: center;
+        }
+
+        .contact .section-title {
+            color: white;
+            text-align: center;
+        }
+
+        .contact .section-title::after {
+            background: rgba(255,255,255,0.5);
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .contact-info {
+            font-size: 1rem;
+            margin-top: 16px;
+        }
+
+        .contact-info a {
+            color: var(--accent-light);
+            text-decoration: none;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer {
+            background: var(--text-dark);
+            color: rgba(255,255,255,0.7);
+            padding: 30px 20px;
+            text-align: center;
+            font-size: 0.9rem;
+        }
+
+        footer a {
+            color: rgba(255,255,255,0.9);
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero {
+                padding: 60px 20px;
+            }
+
+            section {
+                padding: 40px 0;
+            }
+
+            .program-item {
+                grid-template-columns: 1fr;
+                gap: 4px;
+            }
+
+            .speaker-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .organizers-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .navbar .container {
+                flex-wrap: wrap;
+            }
+
+            .navbar-toggle {
+                display: block;
+            }
+
+            .navbar-nav {
+                display: none;
+                width: 100%;
+                flex-direction: column;
+                padding-bottom: 12px;
+            }
+
+            .navbar-nav.active {
+                display: flex;
+            }
+
+            .navbar-nav a {
+                padding: 12px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="https://socialrobot-kros.github.io" class="navbar-brand">KROS 소셜로봇연구회</a>
+            <button class="navbar-toggle" onclick="document.querySelector('.navbar-nav').classList.toggle('active')">
+                <svg viewBox="0 0 24 24"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>
+            </button>
+            <ul class="navbar-nav">
+                <li><a href="#overview">개요</a></li>
+                <li><a href="#program">프로그램</a></li>
+                <li><a href="#speakers">발표자</a></li>
+                <li><a href="#organizers">조직위원</a></li>
+                <li><a href="#support">후원</a></li>
+                <li><a href="#contact">연락처</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <div class="conference-badge"><a href="https://kros.org" target="_blank">제21회 한국로봇종합학술대회 (KRoC 2026)</a> 워크샵</div>
+            <h1>소셜로봇의 재도약을 향하여!</h1>
+            <p class="subtitle">침체기에 있는 소셜로봇의 재도약을 위해 무엇이 필요한가?<br>생산 기업, 소비자, 연구자의 목소리를 통해 현 소셜로봇의 문제점과 개선 방향을 모색합니다.</p>
+            <div class="hero-meta">
+                <span>
+                    <svg width="18" height="18" fill="currentColor" viewBox="0 0 16 16"><path d="M11 6.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm-3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm-5 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1z"/><path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/></svg>
+                    2026년 2월 4일 13:20 ~ 15:20
+                </span>
+                <span>
+                    <svg width="18" height="18" fill="currentColor" viewBox="0 0 16 16"><path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/></svg>
+                    알펜시아리조트 평창홀2
+                </span>
+                <span>
+                    <svg width="18" height="18" fill="currentColor" viewBox="0 0 16 16"><path d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1h8zm-7.978-1A.261.261 0 0 1 7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002a.274.274 0 0 1-.014.002H7.022zM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0zM6.936 9.28a5.88 5.88 0 0 0-1.23-.247A7.35 7.35 0 0 0 5 9c-4 0-5 3-5 4 0 .667.333 1 1 1h4.216A2.238 2.238 0 0 1 5 13c0-.779.357-1.85 1.084-2.793.243-.308.513-.592.852-.837z"/><path d="M4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z"/></svg>
+                    한국로봇학회 소셜로봇연구회
+                </span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Overview Section -->
+    <section id="overview" class="overview">
+        <div class="container">
+            <h2 class="section-title">워크샵 개요</h2>
+            <div class="overview-content">
+                <p>로봇 AI를 통한 로봇 지능의 초고속 발전, 대한민국 사회의 초고령화와 사회적 약자 지원 필요, 개인 서비스 로봇 산업 창출이라는 환경 변화와 숙제에 소셜로봇 연구개발자들은 어떻게 대응할 수 있을까요?</p>
+                <p>본 워크샵을 통해 소셜로봇 <strong>생산 기업</strong>, 소셜로봇 <strong>소비자</strong>, 소셜로봇 <strong>연구자</strong>들의 가감없는 목소리를 듣고, 현 소셜로봇의 문제점과 개선 방향을 모색해 보고자 합니다.</p>
+
+                <div class="keyword-grid">
+                    <div class="keyword-card">
+                        <h4>로봇 AI의 급속 발전</h4>
+                        <p>대규모 언어 모델과 AI 기술의 발전이 로봇 지능에 미치는 영향과 가능성</p>
+                    </div>
+                    <div class="keyword-card">
+                        <h4>초고령사회 돌봄</h4>
+                        <p>고령화 사회에서 소셜로봇이 담당할 수 있는 돌봄 서비스의 역할과 한계</p>
+                    </div>
+                    <div class="keyword-card">
+                        <h4>서비스 로봇 산업</h4>
+                        <p>개인 서비스 로봇 시장 창출을 위한 전략과 현장의 도전 과제</p>
+                    </div>
+                    <div class="keyword-card">
+                        <h4>지역사회 생태계</h4>
+                        <p>지속가능한 돌봄 생태계 구축을 위한 지역 중심의 미래 전략</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Program Section -->
+    <section id="program" class="program">
+        <div class="container">
+            <h2 class="section-title">프로그램</h2>
+            <p style="margin-bottom: 24px; color: var(--text-muted);">2026년 2월 4일 13:20 ~ 15:20 | 알펜시아리조트 평창홀2</p>
+
+            <div class="program-timeline">
+                <div class="program-item opening">
+                    <div class="program-time">개회</div>
+                    <div class="program-detail">
+                        <h4>개회 인사</h4>
+                        <span class="speaker-name">좌장: 김민규 센터장</span>
+                        <span class="speaker-affiliation"> (한국로봇융합연구원)</span>
+                    </div>
+                </div>
+
+                <div class="program-item">
+                    <div class="program-time">발표 1</div>
+                    <div class="program-detail">
+                        <h4>현장에서 마주한 로봇 기술의 한계와 현실</h4>
+                        <span class="speaker-name">박종건 대표</span>
+                        <span class="speaker-affiliation"> (서큘러스)</span>
+                    </div>
+                </div>
+
+                <div class="program-item">
+                    <div class="program-time">발표 2</div>
+                    <div class="program-detail">
+                        <h4>초고령사회 돌봄 현장에서 본 소셜로봇의 한계와 돌봄서비스 활성화 방안</h4>
+                        <span class="speaker-name">이덕원 연구소장</span>
+                        <span class="speaker-affiliation"> (로보케어)</span>
+                    </div>
+                </div>
+
+                <div class="program-item">
+                    <div class="program-time">발표 3</div>
+                    <div class="program-detail">
+                        <h4>지속가능한 돌봄 생태계를 위한 지역의 미래 전략</h4>
+                        <span class="speaker-name">공정은 주무관</span>
+                        <span class="speaker-affiliation"> (포항시청)</span>
+                    </div>
+                </div>
+
+                <div class="program-item">
+                    <div class="program-time">발표 4</div>
+                    <div class="program-detail">
+                        <h4>서비스 중심의 소셜로봇 연구개발 전략</h4>
+                        <span class="speaker-name">조영조 박사</span>
+                        <span class="speaker-affiliation"> (한국전자통신연구원)</span>
+                    </div>
+                </div>
+
+                <div class="program-item discussion">
+                    <div class="program-time">토론</div>
+                    <div class="program-detail">
+                        <h4>서비스 중심 소셜로봇 연구개발 전략</h4>
+                        <span class="speaker-name">전체 참여 토론</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Speakers Section -->
+    <section id="speakers" class="speakers">
+        <div class="container">
+            <h2 class="section-title">발표자</h2>
+            <div class="speaker-grid">
+                <div class="speaker-card">
+                    <span class="number">1</span>
+                    <h4>박종건</h4>
+                    <p class="role">서큘러스 / 대표</p>
+                    <p class="talk-title">현장에서 마주한 로봇 기술의 한계와 현실</p>
+                </div>
+                <div class="speaker-card">
+                    <span class="number">2</span>
+                    <h4>이덕원</h4>
+                    <p class="role">로보케어 / 연구소장</p>
+                    <p class="talk-title">초고령사회 돌봄 현장에서 본 소셜로봇의 한계와 돌봄서비스 활성화 방안</p>
+                </div>
+                <div class="speaker-card">
+                    <span class="number">3</span>
+                    <h4>공정은</h4>
+                    <p class="role">포항시청 / 주무관</p>
+                    <p class="talk-title">지속가능한 돌봄 생태계를 위한 지역의 미래 전략</p>
+                </div>
+                <div class="speaker-card">
+                    <span class="number">4</span>
+                    <h4>조영조</h4>
+                    <p class="role">한국전자통신연구원 / 박사</p>
+                    <p class="talk-title">서비스 중심의 소셜로봇 연구개발 전략</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Organizers Section -->
+    <section id="organizers" class="organizers">
+        <div class="container">
+            <h2 class="section-title">조직위원</h2>
+            <div class="organizers-grid">
+                <div class="organizer-card chair">
+                    <div class="organizer-avatar">MG</div>
+                    <div class="organizer-info">
+                        <span class="role-badge">조직위원장 / 좌장</span>
+                        <h4>김민규</h4>
+                        <span class="affiliation">한국로봇융합연구원 (KIRO) 센터장</span>
+                    </div>
+                </div>
+                <div class="organizer-card">
+                    <div class="organizer-avatar">BY</div>
+                    <div class="organizer-info">
+                        <span class="role-badge">조직위원</span>
+                        <h4>김보영</h4>
+                        <span class="affiliation">한국조지메이슨대학 연구교수</span>
+                    </div>
+                </div>
+                <div class="organizer-card">
+                    <div class="organizer-avatar">MS</div>
+                    <div class="organizer-info">
+                        <span class="role-badge">조직위원</span>
+                        <h4>장민수</h4>
+                        <span class="affiliation">한국전자통신연구원 (ETRI) 책임연구원</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Support Section -->
+    <section id="support" class="support">
+        <div class="container">
+            <h2 class="section-title" style="text-align: center;">
+                <span style="display: inline-block; position: relative;">후원
+                    <span style="position: absolute; bottom: -12px; left: 50%; transform: translateX(-50%); width: 50px; height: 3px; background: var(--accent); border-radius: 2px;"></span>
+                </span>
+            </h2>
+            <div class="support-badge">
+                <img src="/assets/images/kros_logo.png" alt="KROS Logo" onerror="this.style.display='none'">
+                <div class="support-text">
+                    <strong>한국로봇학회 (KROS)</strong>
+                    소셜로봇연구회
+                </div>
+            </div>
+            <p style="margin-top: 20px; color: var(--text-muted); font-size: 0.92rem;">본 워크샵은 한국로봇학회 소셜로봇연구회가 제21회 한국로봇종합학술대회 (KRoC 2026)의 부분 행사로 개최하는 학술 모임입니다.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">연락처</h2>
+            <div class="contact-info">
+                <p>김민규 <a href="mailto:mingyukim@kiro.re.kr">mingyukim@kiro.re.kr</a></p>
+                <p>장민수 <a href="mailto:minsu@etri.re.kr">minsu@etri.re.kr</a></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p><strong>소셜로봇의 재도약을 향하여!</strong></p>
+            <p style="margin-top: 6px;">소셜로봇연구회 워크샵 @KRoC 2026 | 제21회 한국로봇종합학술대회</p>
+            <p style="margin-top: 12px;">
+                <a href="https://socialrobot-kros.github.io">한국로봇학회 소셜로봇연구회</a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
